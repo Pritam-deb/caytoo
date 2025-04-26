@@ -1,10 +1,38 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, BackgroundTasks
+from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
+from sqlmodel import SQLModel, Session  # Import Session from sqlmodel
+from app.config import DATABASE_URL  # Import your DATABASE_URL
 from app.tasks.email_reader import process_gmail_alerts
-# from app.tasks.news_api import fetch_from_news_api
-# from app.tasks.scraper import scrape_websites
-# from app.tasks.rss_reader import fetch_from_rss_feeds
 
-app = FastAPI()
+#  (1)  Create an async engine with the asyncpg driver
+engine = create_async_engine(DATABASE_URL, echo=True)
+
+# (2)  Async function to create tables
+async def create_db_and_tables():
+    async with engine.begin() as conn:
+        await conn.run_sync(SQLModel.metadata.create_all)
+
+# (3)  Async Dependency
+async def get_db():
+    async_session = AsyncSession(engine)
+    try:
+        yield async_session
+    finally:
+        await async_session.close()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Code to run on startup
+    print("Starting up...")
+    await create_db_and_tables()
+    print("Database and tables created.")
+    yield
+    # Code to run on shutdown
+    print("Shutting down...")
+    await engine.dispose()
+
+app = FastAPI(lifespan=lifespan)
 
 @app.get("/")
 def read_root():
@@ -14,18 +42,3 @@ def read_root():
 async def read_emails(background_tasks: BackgroundTasks):
     background_tasks.add_task(process_gmail_alerts)
     return {"status": "Reading Gmail alerts in background."}
-
-# @app.post("/fetch-news-api/")
-# async def fetch_news_api_handler(background_tasks: BackgroundTasks):
-#     background_tasks.add_task(fetch_from_news_api)
-#     return {"status": "Fetching news from API in background."}
-
-# @app.post("/scrape-news-sites/")
-# async def scrape_news_sites(background_tasks: BackgroundTasks):
-#     background_tasks.add_task(scrape_websites)
-#     return {"status": "Scraping news websites in background."}
-
-# @app.post("/rss-feed/")
-# async def rss_feed(background_tasks: BackgroundTasks):
-#     background_tasks.add_task(fetch_from_rss_feeds)
-#     return {"status": "Fetching RSS feeds in background."}
