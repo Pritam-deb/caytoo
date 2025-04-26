@@ -1,26 +1,10 @@
+# app/main.py
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, BackgroundTasks
-from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
-from sqlmodel import SQLModel, Session  # Import Session from sqlmodel
-from app.config import DATABASE_URL  # Import your DATABASE_URL
+from fastapi import FastAPI, BackgroundTasks, Depends
+from app.database import create_db_and_tables, get_db
 from app.tasks.email_reader import process_gmail_alerts
 from app.models import User, Topic, UserTopicLink  # Import your models
-
-#  (1)  Create an async engine with the asyncpg driver
-engine = create_async_engine(DATABASE_URL, echo=True)
-
-# (2)  Async function to create tables
-async def create_db_and_tables():
-    async with engine.begin() as conn:
-        await conn.run_sync(SQLModel.metadata.create_all)
-
-# (3)  Async Dependency
-async def get_db():
-    async_session = AsyncSession(engine)
-    try:
-        yield async_session
-    finally:
-        await async_session.close()
+from sqlmodel import Session
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -31,7 +15,7 @@ async def lifespan(app: FastAPI):
     yield
     # Code to run on shutdown
     print("Shutting down...")
-    await engine.dispose()
+    # The engine is now managed in database.py, no need to dispose here
 
 app = FastAPI(lifespan=lifespan)
 
@@ -43,3 +27,9 @@ def read_root():
 async def read_emails(background_tasks: BackgroundTasks):
     background_tasks.add_task(process_gmail_alerts)
     return {"status": "Reading Gmail alerts in background."}
+
+# Example route to demonstrate using the database session
+@app.get("/users/")
+async def read_users(db: Session = Depends(get_db)):
+    users = await db.exec(select(User)).all()
+    return users

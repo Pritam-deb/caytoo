@@ -1,11 +1,17 @@
-from sqlmodel import Field, SQLModel
+from typing import Optional
+import uuid
+from sqlmodel import UUID, Column, Field, SQLModel
 
 
 class Article(SQLModel, table=True):
-    id: int = Field(default=None, primary_key=True)
+    id: Optional[uuid.UUID] = Field(
+        default_factory=uuid.uuid4,
+        sa_column=Column(UUID(as_uuid=True), primary_key=True)
+    )
     title: str
     content: str
     url_link: str
+    alert_id: int | None = Field(default=None, foreign_key="alert.id")
     created_at: str
     updated_at: str
 
