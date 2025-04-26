@@ -4,6 +4,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlmodel import SQLModel, Session  # Import Session from sqlmodel
 from app.config import DATABASE_URL  # Import your DATABASE_URL
 from app.tasks.email_reader import process_gmail_alerts
+from app.models import User, Topic, UserTopicLink  # Import your models
 
 #  (1)  Create an async engine with the asyncpg driver
 engine = create_async_engine(DATABASE_URL, echo=True)
