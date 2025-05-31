@@ -1,28 +1,319 @@
 {
-  "Google Alert - Funding Series C": {
-    "2025-04-24": [
-      "https://techcrunch.com/2025/04/23/alpaca-a-developer-of-api-brokerage-platform-raises-52m-in-series-c/",
-      "https://www.businesswire.com/news/home/20250423408320/en/Alpaca-Raises-%2452-Million-in-Series-C-Funding-to-Fuel-Global-Expansion-and-Category-Leadership",
-      "https://www.internationalaccountingbulletin.com/news/canopy-secures-70m-series-c/",
-      "https://entrackr.com/news/exclusive-farmart-bags-10-mn-through-equity-and-debt-funding-8992611",
-      "https://www.finsmes.com/2025/04/alpaca-raises-52m-in-series-c-funding.html",
-      "https://fortune.com/2025/04/24/fora-travel-thrive-series-c-60-million-recession/",
-      "https://finance.yahoo.com/news/proptech-company-steadily-raises-30m-102415317.html",
-      "https://www.finsmes.com/2025/04/steadily-raises-30m-in-series-c-funding.html",
-      "https://www.techbuzz.news/canopy-raises-70-million-series-c-to-accelerate-ai-powered-accounting-transformation/",
-      "https://www.lifeinsuranceinternational.com/news/steadily-30m-series-c-round/"
+  "Google Alert - Expansion in UK": {
+    "2025-05-29": [
+      "https://www.lexology.com/library/detail.aspx?g=4e439bc6-4ec3-4eac-ae79-cc1f5f41f2e3",
+      "https://be.fashionnetwork.com/en-be/news/Mango-opens-new-store-in-berkshire-as-part-of-uk-expansion-push,1735393.html",
+      "https://www.bbc.co.uk/news/articles/c8d1yyg0zqyo",
+      "https://www.grocerygazette.co.uk/2025/05/29/aldi-to-open-10-new-stores-this-summer-in-expansion-push/",
+      "https://ukdefencejournal.org.uk/plans-to-expand-cadet-forces-in-state-schools/",
+      "https://www.theguardian.com/business/2025/may/29/asda-unlikely-to-see-growth-before-year-end-at-earliest-says-supermarket-boss",
+      "https://constructionwave.co.uk/2025/05/29/another-acquisition-as-off-site-specialist-targets-further-growth-and-expansion-into-uk-modular-sector/",
+      "https://www.edie.net/uks-largest-banks-finance-fossil-fuel-expansion-despite-net-zero-pledges/",
+      "https://ww.fashionnetwork.com/news/Newbie-set-to-open-in-windsor-shortly-expansion-plan-aims-for-13-uk-stores-this-year,1735479.html",
+      "https://financialit.net/news/management/stripe-fuels-uk-business-growth-global-money-management-capabilities"
     ],
-    "2025-04-22": [
-      "https://m.economictimes.com/news/company/corporate-trends/uniqus-consultech-raises-20-mn-in-series-c-funding/articleshow/120510686.cms",
-      "https://www.businesswire.com/news/home/20250422298486/en/Biolinq-Announces-Close-of-%24100M-Series-C-Financing-to-Advance-Its-Biowearable-Platform-for-Metabolic-Health",
-      "https://www.business-standard.com/companies/start-ups/uniqus-consultech-raises-20-mn-in-series-f-funding-round-led-by-nexus-125042200535_1.html",
-      "https://entrackr.com/news/uniqus-consultech-raises-20-mn-in-series-c-round-led-by-nexus-8988661",
-      "https://www.moneycontrol.com/news/business/startup/consulting-platform-uniqus-secures-20-million-in-series-c-to-fuel-global-expansion-scale-ai-driven-solutions-13001467.html",
-      "https://www.finsmes.com/2025/04/uniqus-consultech-raises-20m-in-series-c-funding.html",
-      "https://yourstory.com/2025/04/uniqus-consultech-raises-20m-in-series-c-round",
-      "https://www.businesswire.com/news/home/20250422251085/en/Uniqus-Consultech-Raises-%2420-Million-in-Series-C-Sees-Strong-Growth-in-the-US",
-      "https://www.drugdeliverybusiness.com/biolinq-closes-100m-series-c-funding-round-biosensor-platform/",
-      "https://insights.citeline.com/medtech-insight/medtech-insight/business/r-and-d/biolinqs-100m-in-series-c-financing-supports-efforts-to-bring-diabetic-glucose-monitoring-with-needle-free-patch-to-market-SAL2INITSBBYHERIDVKI7LRM2Y/"
+    "2025-05-28": [
+      "https://www.bbc.co.uk/news/articles/cy75exp5p6mo",
+      "https://www.fdiforum.net/mag/featured/kfc-ramps-up-uk-expansion-with-1-5bn-investment/",
+      "https://hrme.economictimes.indiatimes.com/news/industry/kfc-invests-149-billion-in-uk-and-ireland-to-generate-over-7000-jobs/121453854",
+      "https://totaltele.com/uk-data-centre-expansion-sparks-net-zero-concerns/",
+      "https://www.barrons.com/news/kfc-embarks-on-2-billion-uk-and-ireland-expansion-8efea433",
+      "https://thred.com/change/kfc-plans-large-expansion-across-uk-and-ireland/",
+      "https://globalcompetitionreview.com/article/mcdermott-plots-uk-expansion-after-poaching-morgan-lewis",
+      "https://www.thegrocer.co.uk/news/kfc-to-invest-15bn-in-uk-upgrade-and-expansion-push/704897.article",
+      "https://www.bbc.co.uk/news/articles/c79e77e27wgo",
+      "https://smithstonewalters.com/news/global-talent"
+    ],
+    "2025-05-26": [
+      "https://pulse2.com/biontech-to-invest-1-billion-in-uk-expansion-through-government-partnership/",
+      "https://www.independent.co.uk/news/uk/home-news/marks-and-spencer-new-food-store-homebase-locations-b2757983.html",
+      "https://bmmagazine.co.uk/in-business/kfc-announces-1-5bn-uk-investment-to-upgrade-restaurants-and-create-7000-jobs/",
+      "https://www.bbc.com/news/articles/c9dqx3ev9n8o",
+      "https://www.talk-finance.co.uk/britain/newcastle-joins-easyjets-uk-expansion-as-budget-travel-demand-soars/",
+      "https://uk.finance.yahoo.com/news/united-kingdom-application-security-market-141300223.html",
+      "https://www.bbc.co.uk/news/articles/c9dqx3ev9n8o",
+      "https://indianexpress.com/article/world/uk-island-strangers-immigration-numbers-keir-starmer-new-policies-10030190/",
+      "https://businessplus.ie/appointed/ben-logan-eachother-uk/",
+      "https://primeresi.com/bidx1-hires-seasoned-operator-to-spearhead-uk-expansion/"
+    ],
+    "2025-05-25": [
+      "https://www.moneycontrol.com/news/opinion/india-uk-fta-s-real-potential-lies-in-services-trade-expansion-13045962.html",
+      "https://indbiz.gov.in/uk-india-fta-set-to-boost-small-businesses-ease-market-access/",
+      "https://indianexpress.com/article/explained/explained-economics/fta-us-eu-uk-will-impact-india-farm-trade-agri-10028540/",
+      "https://forecourttrader.co.uk/latest-news/zuber-invests-in-duckhams-with-plans-to-expand-classic-brand-into-uk-forecourts/704648.article",
+      "https://www.eadt.co.uk/news/25188002.plans-240-place-expansion-thurston-ce-primary-academy/",
+      "https://bmmagazine.co.uk/business/digital-health-expansion-online-pharmacies-and-the-rise-of-mounjaro/",
+      "https://www.nzherald.co.nz/property/first-look-inside-190m-allevia-hospital-epsom-campus-expansion/FSACVXNSTFFZBJNOX5N54LFXK4/",
+      "https://www.nzherald.co.nz/property/first-look-inside-190m-allevia-hospital-epsom-campus-expansion/FSACVXNSTFFZBJNOX5N54LFXK4/",
+      "https://www.businesstoday.in/markets/stocks/story/mofsl-initiates-coverage-on-radico-khaitan-with-buy-rating-and-target-price-of-rs-3000-477683-2025-05-26",
+      "https://greenstreetnews.com/article/qa-hilton-brand-execs-lay-out-most-ambitious-expansion-plans/",
+      "https://www.msn.com/en-us/travel/news/easyjet-opens-newcastle-airport-hub/ar-AA1FmsB3"
+    ]
+  },
+  "Google Alert - Chief Marketing Officer Hiring": {
+    "2025-05-29": [
+      "https://ffnews.com/newsarticle/hiring/ajman-bank-appoints-head-of-fintech-ai-underscoring-commitment-to-digital-innovation/",
+      "https://ffnews.com/newsarticle/hiring/daniel-johnson-joins-bibby-financial-services-as-strategic-it-director/",
+      "https://www.travelmarketreport.com/cruises/articles/virgin-voyages-reorganizes-trade-focused-sales-structure-hires-koreen-mcnutt",
+      "https://www.wtnh.com/news/connecticut/made-conversations-innovation-and-workplace-culture/",
+      "https://www.wtnh.com/news/connecticut/made-conversations-innovation-and-workplace-culture/",
+      "https://www.mediabistro.com/jobs/1076560345-sidwell-friends-school-is-hiring-creative-director-in-washington"
+    ],
+    "2025-05-28": [
+      "https://ffnews.com/newsarticle/hiring/digital-asset-appoints-jonathan-isaac-as-chief-marketing-officer/",
+      "https://www.odwyerpr.com/story/public/23062/2025-05-28/zurich-na-recruits-edelman-vet-kaiser.html",
+      "https://ffnews.com/newsarticle/hiring/lloyds-banking-group-appoints-aritra-chakravarty-as-head-of-agentic-ai/"
+    ],
+    "2025-05-27": [
+      "https://uk.finance.yahoo.com/news/chief-appoints-sabrina-caluori-chief-170000021.html",
+      "https://techbullion.com/what-is-a-fractional-cmo-why-startups-are-hiring-fractional-marketing-managers-to-lead-growth/",
+      "https://www.fiercepharma.com/marketing/indivior-nabs-sanofi-endo-alum-chief-commercial-officer",
+      "https://www.odwyerpr.com/story/public/23055/2025-05-27/move-vechain-picks-day-for-marketing-post.html",
+      "https://ffnews.com/newsarticle/hiring/payabl-appoints-christia-evagorou-as-deputy-group-ceo/",
+      "https://www.cbs42.com/business/press-releases/cision/20250527PH95959/sage-growth-partners-expands-digital-marketing-capabilities",
+      "https://www.storyboard18.com/brand-marketing/flipkart-to-hire-5000-employees-in-2025-focus-on-qcomm-fintech-and-ai-67392.htm",
+      "https://broadcastdialogue.com/adcellerant-expands-to-canada/",
+      "https://www.sportsbusinessjournal.com/Articles/2025/05/27/havens-stepping-down-as-mets-president-of-business-ops/"
+    ]
+  },
+  "Google Alert - Funding Series C": {
+    "2025-05-29": [
+      "https://www.businesswire.com/news/home/20250529254399/en/ClickHouse-Raises-%24350-Million-Series-C-to-Power-Analytics-for-the-AI-Era",
+      "https://www.businesswire.com/news/home/20250529944227/en/Empathy-Announces-%2472-Million-Series-C-and-Unveils-Empathy-Alliance",
+      "https://www.finsmes.com/2025/05/clickhouse-raises-350m-in-series-c-funding.html",
+      "https://www.finsmes.com/2025/05/empathy-raises-72m-in-series-c-funding.html",
+      "https://www.calcalistech.com/ctechnews/article/42w333g67",
+      "https://fortune.com/2025/05/29/exclusive-empathy-raises-72-million-series-c-to-tackle-the-agonizing-logistics-of-death/",
+      "https://www.startupdaily.net/other/nrf-backs-glaucoma-biotech-polyactivas-40-million-series-c/",
+      "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/samsung-invests-ultrasound-imaging-startup-exo-which-has-now-raised-320m",
+      "https://www.crn.com/news/cloud/2025/cloudzero-raises-56-million-in-latest-funding-round",
+      "https://www.crunchbase.com/funding_round/clickhouse-series-c--ef8b845e"
+    ],
+    "2025-05-28": [
+      "https://www.vccircle.com/logisticssaas-startup-fleetx-gets-series-c-funding-from-indiamart-beenext",
+      "https://www.cnbctv18.com/business/startup/fleetx-funding-tech-expansion-revenue-growth-profitability-ipo-19611384.htm",
+      "https://www.cnbctv18.com/business/startup/fleetx-funding-tech-expansion-revenue-growth-profitability-ipo-19611384.htm",
+      "https://www.business-standard.com/markets/ipo/fleetx-raises-113-crore-in-series-c-aims-for-profitability-and-ipo-125052701180_1.html",
+      "https://www.thehindubusinessline.com/info-tech/fleetxio-raises-113-cr-in-series-c-to-fuel-growth-eyes-ipo/article69625380.ece",
+      "https://www.finsmes.com/2025/05/bespoken-spirits-raises-11m-in-series-c-funding-round.html",
+      "https://indianstartupnews.com/funding/gurugram-based-logistics-saas-startup-fleetx-raises-rs-113-crore-in-a-series-c-round-9311516",
+      "https://www.itln.in/logistics/fleetx-raises-rs-113-crore-in-series-c-to-target-profitability-ipo-1355399",
+      "https://www.businesswire.com/news/home/20250528505112/en/Hex-Lands-%2470M-to-Transform-Data-Science-and-Analytics-With-AI",
+      "https://fortune.com/2025/05/28/exclusive-hex-raises-a-70-million-series-c-to-double-down-on-data-in-the-ai-era/",
+      "https://yourstory.com/2025/05/cred-internal-funding-round-75-million-valuation-reset-kunal-shah"
+    ],
+    "2025-05-26": [
+      "https://entrackr.com/news/fleetx-raises-rs-113-cr-in-series-c-led-by-indiamart-and-beenext-9309763",
+      "https://yourstory.com/2025/05/gurugram-startup-fleetxio-series-c-funding-indiamart-intermesh-beenext-accelerate-fund",
+      "https://www.geneonline.com/cellcentric-raises-120-million-in-series-c-to-advance-oral-cancer-drug-inobrodib/",
+      "https://www.startuphub.ai/luminance-secures-75m-in-series-c-funding/",
+      "https://www.youtube.com/watch?v=PJd3MK5yGe4",
+      "https://www.youtube.com/watch?v=PJd3MK5yGe4",
+      "https://indianexpress.com/article/technology/artificial-intelligence/ai-coming-for-your-first-job-big-tech-signalfire-report-10029472/",
+      "https://www.siliconindia.com/news/weekly-review/the-week-that-was-indian-startup-news-overview-19th-may-25th-may-nid-236223-cid-83.html",
+      "https://roboticsandautomationnews.com/2025/05/26/cornerstone-robotics-raises-over-70-million-to-commercialize-its-robotic-surgery-system/91180/",
+      "https://www.calcalistech.com/ctechnews/article/b13so9bgxx",
+      "https://yourstory.com/2025/05/fashion-platform-slikk-series-a-funding-nexus-venture-partners"
+    ],
+    "2025-05-25": [
+      "https://www.crowdfundinsider.com/2025/05/239969-50m-revenuecat-series-c-led-by-bain-capital-ventures/",
+      "https://www.smartcompany.com.au/startupsmart/vc-funding-australia-startups-2025/",
+      "https://techfundingnews.com/from-seed-to-scale-picus-capitals-e250m-fund-ii-empowers-game-changing-startups/",
+      "https://www.arabnews.com/node/2602076/business-economy",
+      "https://www.pressreader.com/india/businessline-delhi-9WVW/20250526/281904484098277",
+      "https://telconews.com.au/story/amber-electric-partners-with-gentrack-to-boost-power-innovation"
+    ]
+  },
+  "Google Alert - Funding Series A": {
+    "2025-05-29": [
+      "https://www.businesswire.com/news/home/20250529749264/en/David-Closes-%2475-Million-Series-A-Funding-Round",
+      "https://techcrunch.com/2025/05/29/tesla-alums-heron-power-closes-38m-series-a-to-transform-key-grid-technology/",
+      "https://www.finsmes.com/2025/05/vivodyne-raises-40m-in-series-a-funding.html",
+      "https://m.economictimes.com/tech/funding/quick-service-app-snabbit-raises-19-million-in-round-led-by-lightspeed/articleshow/121470654.cms",
+      "https://entrackr.com/snippets/cleevo-raises-1-mn-in-seed-round-led-by-eternal-capital-9316482",
+      "https://news.crunchbase.com/ai/startup-venture-funding-stages-databricks-anthropic/",
+      "https://finance.yahoo.com/news/volteras-raises-11-1-million-143000660.html",
+      "https://yourstory.com/2025/05/snabbit-funding-lightspeed-quick-home-services-mumbai-expansion",
+      "https://indianstartupnews.com/funding/mumbai-based-on-demand-home-services-startup-snabbit-raises-19-million-9316925",
+      "https://www.entrepreneur.com/en-in/news-and-trends/home-hygiene-brand-cleevo-raises-funding-led-by-eternal/492394"
+    ],
+    "2025-05-28": [
+      "https://indianstartupnews.com/funding/protective-farming-agritech-startup-growit-raises-3-million-in-a-series-a-round-led-by-gvfl-9313425",
+      "https://m.economictimes.com/tech/funding/agritech-startup-growit-raises-3-million-in-funding-round-led-by-gvfl/articleshow/121462276.cms",
+      "https://www.mobihealthnews.com/news/surgify-secures-79-million-series-funding-global-expansion",
+      "https://www.reuters.com/business/databricks-competitor-chalk-raises-50-million-series-2025-05-28/",
+      "https://www.businesswire.com/news/home/20250528156066/en/Conduit-Raises-%2436-Million-Series-A-to-Scale-Use-of-Stablecoins-for-Cross-Border-Payments",
+      "https://entrackr.com/snippets/growit-raises-3-mn-in-series-a-round-led-by-gvfl-9313488",
+      "https://www.zeebiz.com/startups/news-startup-funding-news-agritech-startup-growit-india-gets-3-million-dollar-funding-in-series-a-round-led-by-gvfl-365197",
+      "https://www.moneycontrol.com/news/business/startup/incred-s-vivek-bansal-ex-kotak-executive-sunil-daga-raise-rs-475-crore-series-a-for-new-nbfc-venture-13052949.html",
+      "https://www.finsmes.com/2025/05/creatify-raises-15-5m-in-series-a-funding.html",
+      "https://www.bwdisrupt.com/article/agritech-startup-growit-raises-3-mn-in-series-a-round-led-by-gvfl-558045"
+    ],
+    "2025-05-27": [
+      "https://retail.economictimes.indiatimes.com/news/apparel-fashion/accessories/eume-secures-rs-25-crore-in-series-a-funding-to-accelerate-expansion/121433966",
+      "https://www.finsmes.com/2025/05/slikk-raises-10m-in-series-a-funding.html",
+      "https://inc42.com/buzz/d2c-luggage-brand-eume-nets-inr-25-cr-to-double-down-on-product-portfolio/",
+      "https://entrackr.com/snippets/frinks-ai-raises-54-mn-in-pre-series-a-round-9310766",
+      "https://www.fortuneindia.com/business-news/eume-bags-25-crore-series-a-funding-to-transform-premium-luggage-market/123490",
+      "https://m.economictimes.com/tech/funding/frinks-ai-raises-5-4-million-in-funding-round-led-by-prime-venture-partners/articleshow/121437335.cms",
+      "https://indianstartupnews.com/funding/known-investor-ashish-kacholia-others-invests-rs-25-crore-in-premium-travel-luggage-brand-eume-9310304",
+      "https://www.exchange4media.com/digital-news/slikk-raises-10-million-in-series-a-funding-143812.html",
+      "https://ibsintelligence.com/ibsi-news/indian-regtech-startup-data-sutram-raises-9m-in-series-a-funding/",
+      "https://www.thehindubusinessline.com/money-and-banking/fintech-start-up-cred-to-raise-75-m-in-funding-round-led-by-existing-investors/article69625896.ece"
+    ],
+    "2025-05-26": [
+      "https://yourstory.com/2025/05/fashion-platform-slikk-series-a-funding-nexus-venture-partners",
+      "https://retail.economictimes.indiatimes.com/news/apparel-fashion/apparel/slikk-secures-10-million-series-a-funding-to-transform-fashion-commerce-with-60-minute-delivery/121410899",
+      "https://www.cnbctv18.com/business/startup/fintech-startup-data-sutram-funding-ai-fraud-detection-expansion-plans-19610732.htm",
+      "https://www.cnbctv18.com/business/startup/fintech-startup-data-sutram-funding-ai-fraud-detection-expansion-plans-19610732.htm",
+      "https://www.finsmes.com/2025/05/viact-raises-7-3m-in-series-a-funding.html",
+      "https://entrackr.com/exclusive/exclusive-shraddha-kapoor-backed-palmonas-to-raise-rs-55-cr-led-by-vertex-ventures-9306754",
+      "https://renewablewatch.in/2025/05/26/promethean-energy-raises-2-million-in-pre-series-a-funding-round/",
+      "https://www.moneycontrol.com/news/business/startup/iconiq-to-pump-in-150-million-in-groww-in-pre-ipo-round-at-7-billion-valuation-13047306.html",
+      "https://www.youtube.com/watch?v=VmS8P5IZdXY",
+      "https://www.youtube.com/watch?v=VmS8P5IZdXY",
+      "https://www.outlookbusiness.com/start-up/new-investor-joins-growws-300-million-pre-ipo-funding-round",
+      "https://thepaypers.com/digital-identity-security-online-fraud/data-sutram-obtains-usd-9-million-in-series-a-funding-round--1273771"
+    ],
+    "2025-05-25": [
+      "https://www.startuphub.ai/kota-secures-14-5m-series-a-funding-to-revolutionize-employee-benefits/",
+      "https://m.economictimes.com/tech/technology/info-edge-to-invest-rs-1000-crore-in-vc-fund-with-shareholders-nod/articleshow/121394682.cms",
+      "https://m.economictimes.com/mf/mf-news/from-rs-100-to-rs-1-crore-the-small-sip-strategy-that-works-if-you-start-early/articleshow/121390085.cms",
+      "https://www.thehansindia.com/business/21-indian-startups-raise-1395-million-this-week-974067",
+      "https://www.ciol.com/startups/the-rise-and-fall-of-builderai-what-led-to-its-collapse-9304500",
+      "https://www.entrepreneur.com/en-in/entrepreneurs/the-climate-warrior/491764",
+      "https://www.dealstreetasia.com/stories/stable-money-openfx-raise-funds-443435",
+      "https://globallegalchronicle.com/briks-10-million-series-a-funding-round/",
+      "https://www.startuphub.ai/legora-secures-80-million-series-b-funding/",
+      "https://en.prnasia.com/releases/apac/valtech-launches-free-startup-valuation-planning-tools-in-its-mobile-app-490464.shtml"
+    ]
+  },
+  "Google Alert - Funding Series B": {
+    "2025-05-29": [
+      "https://entrackr.com/exclusive/exclusive-snitch-to-raise-rs-280-cr-in-series-b-round-at-rs-2500-cr-valuation-9316557",
+      "https://www.prnewswire.com/in/news-releases/acclaro-medical-raises-23-million-in-series-b-funding-led-by-accelmed-partners-to-advance-groundbreaking-2910-nm-fiber-laser-technology-302467969.html",
+      "https://www.thehindubusinessline.com/companies/quick-service-platform-snabbit-secures-19-million-in-series-b-round/article69629356.ece",
+      "https://www.finsmes.com/2025/05/wander-raises-50m-in-series-b-funding.html",
+      "https://www.siliconindia.com/news/business/snabbit-secures-19-million--in-series-b-funding-in-india-nid-236281-cid-3.html",
+      "https://www.vccircle.com/ligthspeedleads-elevation-nexus-backed-snabbit-s-series-b-round",
+      "https://www.ciol.com/funding-acquistion-merger/snabbit-raises-19m-series-b-to-expand-home-services-across-india-9316851",
+      "https://www.biospace.com/press-releases/ausperbio-raises-50-million-in-series-b-to-advance-functional-cure-for-chronic-hepatitis-b",
+      "https://yourstory.com/2025/05/snabbit-funding-lightspeed-quick-home-services-mumbai-expansion",
+      "https://www.business-standard.com/companies/news/snabbit-raises-19-mn-to-expand-on-demand-home-services-across-india-125052900100_1.html"
+    ],
+    "2025-05-28": [
+      "https://www.prnewswire.com/news-releases/wander-raises-50m-series-b-to-build-the-trusted-brand-in-vacation-rentals-302466298.html",
+      "https://www.finsmes.com/2025/05/cerby-raises-40m-in-series-b-funding.html",
+      "https://www.venturelab.swiss/GlycoEra-raises-USD-130-Million-Series-B-to-advance-targeted-autoimmune-therapies",
+      "https://www.eu-startups.com/2025/05/lisbon-based-bloq-it-raises-e28-million-in-one-of-portugals-biggest-series-b-rounds/",
+      "https://www.prnewswire.com/news-releases/ausperbio-raises-50-million-in-series-b-to-advance-functional-cure-for-chronic-hepatitis-b-302467345.html",
+      "https://inc42.com/buzz/pronto-to-raise-12-mn-from-general-catalyst-glade-brook-capital/",
+      "https://dronelife.com/2025/05/28/unleash-live-secures-a17-million-to-expand-ai-powered-infrastructure-solutions-globally/",
+      "https://www.startupdaily.net/topic/funding/ai-based-video-analytics-scaleup-pockets-17-million-series-b/",
+      "https://finance.yahoo.com/news/cerby-raises-40m-series-b-123500627.html",
+      "https://retailtechinnovationhub.com/home/2025/5/27/pallet-picks-up-27m-in-series-b-funding-for-ai-tech-that-makes-supply-chain-operators-more-efficient"
+    ],
+    "2025-05-27": [
+      "https://www.moneycontrol.com/news/business/funding/value-fashion-retailer-citykart-raises-rs-538-crore-in-series-b-funding-led-by-tpg-newquest-a91-partners-13048817.html",
+      "https://www.businesswire.com/news/home/20250527164246/en/Pallet-Secures-%2427M-Series-B-Led-by-General-Catalyst-to-Scale-AI-Workforce-for-Logistics",
+      "https://entrackr.com/exclusive/exclusive-cred-set-to-raise-75-mn-at-35-bn-valuation-led-by-gic-9311188",
+      "https://www.finsmes.com/2025/05/pallet-raises-27m-in-series-b-funding.html",
+      "https://www.business-standard.com/companies/start-ups/value-fashion-retailer-citykart-raises-rs-538-crore-in-series-b-round-125052601480_1.html",
+      "https://yourstory.com/2025/05/citykart-rs-538-cr-series-b-funding-round-tpg-newquest-a91-partners",
+      "https://legalfundingjournal.com/legora-attracts-80-million-series-b-funding/",
+      "https://indianstartupnews.com/funding/value-fashion-retailer-citykart-raises-rs-538-crore-in-a-series-b-round-9310862",
+      "https://entrackr.com/news/citykart-raises-rs-538-cr-led-by-tpg-newquest-and-a91-partner-9309720",
+      "https://www.geneonline.com/glycoera-secures-130-million-series-b-funding-to-advance-extracellular-protein-degradation-technology/"
+    ],
+    "2025-05-26": [
+      "https://www.finsmes.com/2025/05/juvenescence-closes-76m-first-tranche-of-series-b-1-funding.html",
+      "https://www.calcalistech.com/ctechnews/article/b13so9bgxx",
+      "https://www.techinasia.com/news/insight-partners-leads-225m-series-israeli-ai-firm-sweep",
+      "https://www.startuphub.ai/monarch-money-secures-75-million-series-b-funding/",
+      "https://entrackr.com/exclusive/exclusive-shraddha-kapoor-backed-palmonas-to-raise-rs-55-cr-led-by-vertex-ventures-9306754",
+      "https://inc42.com/buzz/snabbit-in-talks-to-raise-20-mn/",
+      "https://www.crowdfundinsider.com/2025/05/240020-monarch-raises-75m-series-b-to-expand-its-personal-finance-platform-for-households/",
+      "https://www.easternmirrornagaland.com/21-indian-startups-raise-1395-million-this-week",
+      "https://thepaypers.com/online-mobile-banking/monarch-secures-usd-75-million-in-funding--1273773",
+      "https://pulse2.com/datahub-35-million-series-b-closed-for-enabling-ai-to-manage-data/"
+    ],
+    "2025-05-25": [
+      "https://entrackr.com/exclusive/exclusive-classplus-and-pravega-to-lead-6-mn-round-in-gyandhan-9302615",
+      "https://www.startuphub.ai/legora-secures-80-million-series-b-funding/",
+      "https://www.dealstreetasia.com/stories/stable-money-openfx-raise-funds-443435",
+      "https://www.socialnews.xyz/2025/05/25/21-indian-startups-raise-139-5-million-this-week/",
+      "https://www.newindianexpress.com/states/odisha/2025/May/25/curebay-raises-usd-21-million-to-expand-national-footprint",
+      "https://www.binance.com/square/post/24706456315561",
+      "https://www.dealstreetasia.com/stories/otipy-shuts-down-443426",
+      "https://www.arabnews.com/node/2602018/amp",
+      "https://www.startuphub.ai/rivan-secures-10-million-to-scale-solar-powered-synthetic-fuel-production/",
+      "https://www.msn.com/en-us/money/smallbusiness/datahub-raises-35m-to-advance-cmp-development/ar-AA1Fn53g"
+    ]
+  },
+  "Google Alert - Brand campaigns": {
+    "2025-05-29": [
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/indiamart-launches-trust-building-campaign-kaam-yahin-banta-hai/121459620",
+      "https://www.americansalon.com/salon-news/beauty-adwatch-hot-marketing-campaigns-rolling-out-summer",
+      "https://www.marketingdive.com/news/how-restaurant-chains-are-updating-their-marketing-menus-in-tough-economy/748691/",
+      "https://www.adgully.com/post/2084/britannia-good-day-chunkies-unveils-eathappens-campaign",
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/air-indias-inspiring-new-campaign-there-is-an-air-about-india/121461342",
+      "https://lbbonline.com/news/DoorDash-Introduces-Unlikely-Kiwi-Superhero-In-NZ-Brand-Campaign",
+      "https://m.economictimes.com/industry/services/advertising/saif-ali-khan-becomes-ambassador-for-sparsh-pearl/articleshow/121464985.cms",
+      "https://www.campaignasia.com/article/asia-pacific-power-list-2025-ruchira-jaitly-diageo/502737",
+      "https://www.businessinsider.com/how-advertising-agencies-use-ai-to-pitch-win-business-2025-5",
+      "https://www.thedrum.com/news/2025/05/28/ad-the-day-gritty-lenovo-gaming-ad-champions-perseverance"
+    ],
+    "2025-05-28": [
+      "https://time.com/partner-article/7288689/the-10-most-famous-ad-campaigns-of-all-time-according-to-ai/",
+      "https://adage.com/creativity/campaigns-commercials/aa-creative-ads-today-goodpop-o2-telefonica-tesco-vodafone-whiskas/",
+      "https://adage.com/creativity/campaigns-commercials/aa-creative-ads-today-goodpop-o2-telefonica-tesco-vodafone-whiskas/",
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/cannes-lions-2025-spotlights-long-term-brand-platforms-for-lasting-impact/121447720",
+      "https://www.socialsamosa.com/industry-updates/shreyas-iyer-brand-ambassador-hell-energy-drink-india-9312051",
+      "https://www.indianretailer.com/article/retail-business/consumer-behavior/top-brands-made-their-mark-ipl-ads-2025",
+      "https://be.fashionnetwork.com/en-be/news/Weekday-kicks-off-its-multi-brand-platform-with-new-campaign,1734305.html",
+      "https://www.campaignlive.co.uk/article/economist-unveils-brand-refresh-first-tv-spots-five-years/1919368",
+      "https://www.thedrum.com/news/2025/05/27/ad-the-day-o2-s-talking-fish-brings-absurdist-humor",
+      "https://www.thedrum.com/news/2025/05/27/ad-the-day-o2-s-talking-fish-brings-absurdist-humor",
+      "https://www.wsj.com/articles/nespresso-lightens-up-its-marketing-to-win-gen-zs-cold-coffee-drinkers-1ddaeee4",
+      "https://www.exchange4media.com/digital-news/game-on-how-brands-are-winning-with-in-game-advertising-143838.html"
+    ],
+    "2025-05-27": [
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/kareena-kapoor-khan-becomes-bissells-brand-ambassador-in-india-a-new-era-for-homecare-solutions/121411613",
+      "https://www.exchange4media.com/marketing-news/google-launches-smart-bidding-exploration-to-boost-martech-campaign-reach-and-conversions-143798.html",
+      "https://www.thedrum.com/news/2025/05/27/retail-media-s-rise-are-marketers-ready-make-the-most-it",
+      "https://www.socialsamosa.com/industry-updates/wella-professionals-manushi-chhillar-brand-ambassador-9308005",
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/cipla-launches-inspiring-film-to-highlight-commitment-to-patient-care/121414967",
+      "https://www.marketingweek.com/globalisation-divided-brands/",
+      "https://m.economictimes.com/industry/auto/cars-uvs/audi-india-partners-with-neeraj-chopra/articleshow/121409825.cms",
+      "https://www.indiantelevision.com/mam/media-and-advertising/ad-campaigns/punit-thakkar-brushes-off-the-sugar-for-colgate%E2%80%99s-digital-strategy-250527",
+      "https://www.exchange4media.com/pr-and-corporate-communication-news/the-future-is-fast-flexible-connected-and-media-mantra-is-excited-to-be-part-of-it-143790.html",
+      "https://www.searchenginejournal.com/googles-new-ai-tools-promise-faster-ads-but-raise-control-concerns/547753/"
+    ],
+    "2025-05-26": [
+      "https://adage.com/creativity/campaigns-commercials/aa-best-ads-this-week-heineken-vimergy-microsoft/",
+      "https://brandequity.economictimes.indiatimes.com/amp/news/advertising/the-art-of-research-in-advertising-crafting-campaigns-that-resonate/121403145",
+      "https://www.campaignindia.in/gallery/campaign-roundup-week-of-26-may/502661",
+      "https://anymindgroup.com/news/press-release/pokkt-awards-india2025",
+      "https://www.exchange4media.com/digital-news/boardroom-to-living-room-why-b2b-brands-in-india-are-betting-big-on-ctv-143766.html",
+      "https://www.medianews4u.com/how-can-the-advertising-industry-keep-the-heart-alive-in-ai-campaigns/",
+      "https://www.campaignindia.in/article/your-brand-is-only-as-safe-as-your-ai/502669",
+      "https://www.socialsamosa.com/the-pulse-magazine/goafest-chronicles-inside-indias-biggest-creative-playground-9307563",
+      "https://www.campaignasia.com/article/your-brand-is-only-as-safe-as-your-ai/502655",
+      "https://brandequity.economictimes.indiatimes.com/news/marketing/experiential-marketing-connecting-humans-in-the-ai-era/121402766"
+    ],
+    "2025-05-25": [
+      "https://www.trendhunter.com/trends/cushiest-internship-in-america",
+      "https://www.fastcompany.com/91338175/the-secrets-of-a-social-media-marketing-guru-qa-with-david-brickley",
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/digital-advertising-must-address-fake-views-to-thrive-insights-from-tejas-apte-at-goafest-2025/121376268?utm_source=newslisting&utm_medium=latestNews",
+      "https://www.trendhunter.com/trends/so-clean-you-can-kiss-it",
+      "https://www.campaignindia.in/article/famous-innovations-tribes-vml-win-grand-prix-on-final-day-of-abby-awards-2025/502633",
+      "https://www.campaignindia.in/article/famous-innovations-tribes-vml-win-grand-prix-on-final-day-of-abby-awards-2025/502633",
+      "https://www.cnbc.com/2025/05/24/valueact-takes-a-stake-in-rocket-cos-how-the-activist-may-help-lift-shares.html",
+      "https://www.indianretailer.com/article/retail-business/consumer-trends/kkr-sponsors-top-brands-backing-kolkata-knight-riders-ipl",
+      "https://www.adgully.com/post/1980/vml-secures-55-honors-at-dad-awards-2025-demonstrating-global-creative-impact",
+      "https://www.adgully.com/post/1980/vml-secures-55-honors-at-dad-awards-2025-demonstrating-global-creative-impact",
+      "https://www.dailymail.co.uk/yourmoney/article-14743673/sales-collapse-nike-relists-amazon.html",
+      "https://brandequity.economictimes.indiatimes.com/news/advertising/cci-uncovers-collusion-among-global-ad-agencies-in-fee-fixing-scandal/121373380"
     ]
   }
 }
