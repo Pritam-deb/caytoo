@@ -35,7 +35,7 @@ def get_google_alert_links():
     results = service.users().messages().list(
         userId='me',
         labelIds=['INBOX'],
-        q='from:(googlealerts-noreply@google.com) newer_than:5d',
+        q='from:(googlealerts-noreply@google.com) newer_than:1d',
     ).execute()
     
     messages = results.get('messages', [])
