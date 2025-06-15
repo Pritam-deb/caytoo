@@ -11,6 +11,7 @@ from google.auth.transport.requests import Request
 import urllib.parse
 from collections import defaultdict
 from datetime import datetime, timedelta
+import redis
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
@@ -41,6 +42,7 @@ def get_google_alert_links():
     messages = results.get('messages', [])
     print(f"Found {len(messages)} Google Alert emails.")
     data = defaultdict(lambda: defaultdict(list))
+    r = redis.Redis(host='localhost', port=6379, db=0)
 
     for msg in messages:  # Limit to recent 5
         msg_data = service.users().messages().get(userId='me', id=msg['id'], format='raw').execute()
@@ -74,6 +76,10 @@ def get_google_alert_links():
             if match:
                 clean_url = urllib.parse.unquote(match.group(1))
                 data[subject][date].append(clean_url)
+                try:
+                    r.rpush('google_alert_links', clean_url)
+                except Exception as e:
+                    print(f"Failed to push to Redis: {e}")
 
     for subject, dates in data.items():
         print(f"Subject: {subject}")
