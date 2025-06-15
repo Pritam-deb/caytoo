@@ -1,7 +1,7 @@
 package main
 
 import (
-	"caytoo/engine/internal/processor"
+	// "caytoo/engine/internal/processor"
 	"context"
 	"log"
 	"time"
@@ -14,7 +14,7 @@ const (
 	redisAddr     = "localhost:6379" // Your Redis server address
 	redisPassword = ""               // Your Redis password, if any
 	redisDB       = 0                // Default Redis DB
-	queueName     = "processing_queue" // The name of the Redis list to use as a queue
+	queueName     = "google_alert_links" // The name of the Redis list to use as a queue
 	processingTime = 2 * time.Second    // Simulate some work
 )
 
@@ -38,6 +38,8 @@ func main() {
 	log.Println("Successfully connected to Redis!")
 	log.Printf("Listening on queue: %s\n", queueName)
 
+	sem := make(chan struct{}, 1) // limit to 5 concurrent goroutines
+
 	// Main loop to listen for messages from the Redis queue
 	for {
 		// Blocking Pop from the right of the list (BRPOP)
@@ -57,14 +59,15 @@ func main() {
 			message := result[1]
 			log.Printf("Received message: %s\n", message)
 
-			// --- YOUR MESSAGE PROCESSING LOGIC GOES HERE ---
-			// Example: Call your AI filtering, database operations, etc.
-			log.Printf("Processing message: %s...\n", message)
-			// time.Sleep(processingTime) // Simulate work
-			processor.TextToClean(message) // Call your processing function
+			go func(msg string) {
+				sem <- struct{}{} // acquire
+				defer func() { <-sem }() // release
 
-			log.Printf("Finished processing message: %s\n", message)
-			// --- END OF YOUR MESSAGE PROCESSING LOGIC ---
+				log.Printf("Processing message: %s...\n", msg)
+				// processor.AnalyzeArticleAsLead(msg)
+				time.Sleep(processingTime)
+				log.Printf("Finished processing message: %s\n", msg)
+			}(message)
 
 		} else {
 			// This case should ideally not happen with BLPop if there's a message
