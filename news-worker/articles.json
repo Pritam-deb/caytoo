@@ -1,79 +1,63 @@
 {
-  "Google Alert - Chief Marketing Officer Hiring": {
-    "2025-06-14": [
-      "https://www.thetimes.com/business-money/companies/article/how-i-juggle-three-jobs-at-once-the-rise-of-fractional-workers-5bsltp5k3",
-      "https://247sports.com/college/florida/article/florida-athletics-uaa-gators-hiring-settlement-nil-chief-commercial-officer-250827068/"
-    ]
-  },
-  "Google Alert - Brand campaigns": {
-    "2025-06-14": [
-      "https://brandequity.economictimes.indiatimes.com/news/advertising/indian-creative-campaigns-shine-at-cannes-lions-2025/121846942",
-      "https://www.financialexpress.com/business/brandwagon-fathers-day-2025-campaigns-that-reflect-the-modern-indian-dad-3880277/",
-      "https://www.prnewswire.com/news-releases/ram-brand-launches-never-stop-being-american-marketing-campaign-new-brand-ethos-nothing-stops-ram-302481708.html",
-      "https://www.bwmarketingworld.com/article/cannes-lions-2025-indian-creativity-gets-22-campaign-shortlists-in-5-categories-559838",
-      "https://brandequity.economictimes.indiatimes.com/news/advertising/myntra-launches-humorous-fathers-drip-campaign-for-fathers-day/121844191",
-      "https://www.exchange4media.com/cannes-lions-news/ogilvy-india-earns-6-shortlists-at-cannes-lions-2025-144392.html",
-      "https://m.economictimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/my-brand-is-respected-in-india-because-everyone-panders-to-the-rich-we-do-not-sabyasachi/articleshow/121858221.cms",
-      "https://www.indiantelevision.com/mam/media-and-advertising/ad-campaigns/neena-gupta-brings-quick-wit-and-quicker-healing-to-cipla-health%E2%80%99s-new-campaign-250614",
-      "https://bestmediainfo.com/mediainfo/advertising/cannes-lions-2025-india-gets-22-shortlists-across-5-categories-9362442",
-      "https://www.storyboard18.com/brand-makers/rest-recharge-reinvent-kias-shakti-upadhyay-on-the-power-of-pause-70259.htm"
-    ]
-  },
   "Google Alert - Expansion in UK": {
-    "2025-06-14": [
-      "https://timesofindia.indiatimes.com/india/uk-india-education-ties-university-of-aberdeen-gets-green-signal-for-indian-expansion-first-scottish-campus-by-2026/articleshow/121849167.cms",
-      "https://psnews.com.au/expansion-of-uk-submarine-program-may-be-double-edged-sword-for-australia/160789/",
-      "https://www.msn.com/en-us/money/companies/pret-a-manger-to-launch-new-format-stores-in-uk/ar-AA1GskMi",
-      "https://www.businesspost.ie/companies/burger-battle-as-mcdonalds-sues-supermacs-over-uk-expansion/",
-      "https://www.gbnews.com/money/triple-lock-state-pension-gdp-economy-wage-growth",
-      "https://www.gbnews.com/money/triple-lock-state-pension-gdp-economy-wage-growth",
-      "https://www.voicenewspapers.co.uk/news/care-company-celebrates-two-years-and-plans-expansion-802838",
-      "https://www.taxmanagementindia.com/visitor/detail_rss_feed.asp?ID=46601",
-      "https://www.crowdfundinsider.com/2025/06/242052-the-financial-conduct-authority-fca-shares-strategy-to-drive-economic-growth-position-the-uk-as-investment-hub/",
-      "https://uk.finance.yahoo.com/news/could-one-cheapest-uk-stocks-061400205.html",
-      "https://www.cambrian-news.co.uk/news/powys-residents-can-now-recycle-paper-plastic-items-thanks-to-recycling-expansion-802464"
-    ]
-  },
-  "Google Alert - Funding Series A": {
-    "2025-06-14": [
-      "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9362165",
-      "https://medicalbuyer.co.in/aortyx-raises-e13-8m-in-series-a-funding-round/",
-      "https://inc42.com/buzz/from-groww-to-sanlayan-indian-startups-raised-559-mn-this-week/",
-      "https://m.economictimes.com/tech/startups/startups-fire-up-hiring-engine-in-hunt-for-senior-executives/articleshow/121853314.cms",
-      "https://m.economictimes.com/industry/transportation/airlines-/-aviation/ahmedabad-plane-crash-air-india-announces-additional-rs-25-lakh-compensation-on-top-of-rs-1-crore-to-fast-track-relief-for-victims-families/articleshow/121849426.cms",
-      "https://www.entrepreneur.com/en-in/news-and-trends/chai-shots-nears-5m-round-pehle-jaisa-secures-300k-as/493288",
-      "https://the-ken.com/the-nutgraf/kunal-shah-and-founders-who-fund-their-faith/",
-      "https://m.economictimes.com/markets/ipos/fpos/hero-fincorp-garners-rs-260-cr-from-investors-in-pre-ipo-round/articleshow/121859127.cms",
-      "https://www.arabnews.com/node/2604495/amp",
-      "https://yourstory.com/2025/06/spotlighting-india-as-gcc-leader-how-gccs-can-harness-ai"
+    "2025-06-23": [
+      "https://www.reuters.com/business/retail-consumer/amazon-invest-54-billion-britain-over-next-three-years-2025-06-23/",
+      "https://manufacturing.economictimes.indiatimes.com/news/industry/uk-to-issue-10-year-industrial-strategy-aimed-at-boosting-growth/122002683",
+      "https://www.gov.uk/government/news/380-million-boost-for-creative-industries-to-help-drive-innovation-regional-growth-and-investment",
+      "https://bmmagazine.co.uk/news/amazon-commits-40bn-to-uk-expansion-with-new-fulfilment-centres-studio-upgrades-and-tech-investment/",
+      "https://finance.yahoo.com/news/uk-private-sector-grows-fastest-083000000.html",
+      "https://www.thetimes.com/business-money/economics/article/amazon-invests-40bn-in-major-uk-expansion-69mhdcp3r",
+      "https://www.gov.uk/government/news/tech-innovators-backed-to-set-up-and-scale-up-in-britain-through-industrial-strategy",
+      "https://www.fibre2fashion.com/news/retail-results/uk-s-matalan-posts-75-04-mn-profit-rise-in-fy25-eyes-expansion-303482-newsdetails.htm",
+      "https://m.economictimes.com/tech/technology/uk-launches-new-taskforce-and-fund-to-attract-global-science-tech-talent/articleshow/122029097.cms",
+      "https://www.independent.co.uk/news/uk/home-news/amazon-jobs-warehouses-new-expansion-b2775425.html"
     ]
   },
   "Google Alert - Funding Series C": {
-    "2025-06-14": [
-      "https://www.ophthalmologytimes.com/view/polyactiva-secures-40-million-aud-in-series-c-funding",
-      "https://inc42.com/buzz/from-groww-to-sanlayan-indian-startups-raised-559-mn-this-week/",
-      "https://hoteltechnologynews.com/2025/06/canary-technologies-raises-80-million-to-expand-its-global-presence-and-enhance-ai-powered-hotel-solutions/",
-      "https://startupstorymedia.com/insights-defi-startup-plutope-raises-500k-in-pre-seed-round-to-expand-global-crypto-neobank-vision/",
-      "https://www.techinasia.com/rising-sun-raising-funds",
-      "https://www.entrepreneur.com/en-in/news-and-trends/sarvagram-raises-inr-565-crore-in-series-d-doubles/493291",
-      "https://techstory.in/weekly-startup-funding-news-indian-startups-raised-568-mn-this-week-from-groww-to-cred/",
-      "https://www.indexbox.io/blog/clay-raises-series-c-reaches-3-billion-valuation/",
-      "https://www.asianhospitality.com/canary-technologies-80m-series-d-hospitality-ai-expansion/",
-      "https://startupstorymedia.com/insights-garuda-aerospace-raises-additional-1m-in-series-b-round-to-accelerate-drone-manufacturing-and-global-expansion/"
+    "2025-06-23": [
+      "https://financialit.net/news/fundraising-news/finom-raises-eu115-million-series-c-fuel-european-expansion",
+      "https://fintechnews.ch/funding/finom-series-c-funding/77055/",
+      "https://www.techinasia.com/news/dutch-fintech-firm-finom-raises-133m-series-c-funding",
+      "https://www.finextra.com/newsarticle/46186/dutch-fintech-finom-secures-115-million-in-series-c-funding",
+      "https://www.fintechfutures.com/venture-capital-funding/dutch-fintech-finom-raises-115m-series-c-led-by-avp",
+      "https://www.reuters.com/technology/customer-service-ai-startup-decagon-raises-131-million-2025-06-23/",
+      "https://ibsintelligence.com/ibsi-news/finom-raises-131-97m-series-c-to-fuel-pan-european-sme-banking-expansion/",
+      "https://techcrunch.com/2025/06/23/smb-focused-finom-closes-e115m-as-european-fintech-heats-up/",
+      "https://www.techinasia.com/news/accel-leads-131m-series-customer-service-ai-startup-decagon",
+      "https://m.economictimes.com/tech/funding/customer-service-ai-startup-decagon-raises-131-million/articleshow/122031071.cms"
+    ]
+  },
+  "Google Alert - Chief Marketing Officer Hiring": {
+    "2025-06-23": [
+      "https://hoopdirt.com/goods-joins-arkansas-state-basketball-staff/"
+    ]
+  },
+  "Google Alert - Funding Series A": {
+    "2025-06-23": [
+      "https://entrackr.com/snippets/d2c-brand-rabitat-raises-rs-40-cr-in-series-a-round-9389652",
+      "https://retail.economictimes.indiatimes.com/news/industry/rabitat-secures-rs-40-crore-in-series-a-funding-to-expand-kids-drinkware-and-foodware/122020894",
+      "https://www.outlookbusiness.com/start-up/investors/d2c-brand-rabitat-bags-40-cr-in-series-a-funding-round",
+      "https://www.entrepreneur.com/en-in/news-and-trends/rabitat-raises-inr-40-cr-in-series-a-round-led-by-rpsg/493641",
+      "https://www.finsmes.com/2025/06/spinwheel-raises-30m-in-series-a-funding.html",
+      "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/crmeitalia-raises-rs-18-crore-in-series-a-funding-to-expand-into-tier-2-and-3-cities/122027188",
+      "https://chargedevs.com/newswire/lumina-aims-to-raise-20-40-million-in-series-a-funding-for-electric-construction-equipment/",
+      "https://ffnews.com/newsarticle/funding/spinwheel-raises-30-million-series-a-to-transform-the-consumer-credit-ecosystem/",
+      "https://www.uniindia.com/news/business-economy/rabitat-fund-raising/3496674.html",
+      "https://www.finsmes.com/2025/06/qualytics-raises-10m-in-series-a-funding.html"
     ]
   },
   "Google Alert - Funding Series B": {
-    "2025-06-14": [
-      "https://startupstorymedia.com/insights-garuda-aerospace-raises-additional-1m-in-series-b-round-to-accelerate-drone-manufacturing-and-global-expansion/",
-      "https://nextunicorn.ventures/definely-secures-30-million-series-b-to-revolutionize-legal-contract-review/",
-      "https://www.msn.com/en-us/money/companies/uk-based-tech-startup-definely-raises-30m-series-b-funding-round-to-amp-up-legal-ai/ar-AA1GB9x2",
-      "https://m.economictimes.com/tech/startups/startups-fire-up-hiring-engine-in-hunt-for-senior-executives/articleshow/121853314.cms",
-      "https://startupnews.fyi/2025/06/14/garuda-aerospace-raises-additional-1m-in-series-b-round-to-accelerate-drone-manufacturing-and-global-expansion/",
-      "https://www.ceotodaymagazine.com/2025/06/multiverse-computings-215m-bet-could-shrink-ai-models-by-95/",
-      "https://innovation-village.com/definely-raises-30m-series-b-to-transform-legal-ai-workflows/",
-      "https://siliconcanals.com/in-other-news-this-week-44/",
-      "https://www.modernhealthcare.com/health-tech/mh-digital-health-funding-cigna-autonomize-ai/",
-      "https://www.govinfosecurity.com/guardz-snags-56m-to-grow-ai-cybersecurity-platform-for-msps-a-28702"
+    "2025-06-23": [
+      "https://www.entrepreneur.com/en-in/news-and-trends/kazam-secures-usd-62-mn-series-b-funding-from-ifc-and/493696",
+      "https://www.mercomindia.com/ev-kazam-raises-6-2-million-in-series-b-funding",
+      "https://www.finsmes.com/2025/06/botpress-raises-25m-in-series-b-funding.html",
+      "https://www.businesswire.com/news/home/20250623802541/en/Conquest-Planning-Raises-%2480-Million-Series-B-Led-by-Growth-Equity-at-Goldman-Sachs-Alternatives-to-Bring-Personalized-AI-Powered-Financial-Plans-to-More-Families",
+      "https://betakit.com/conquest-planning-raises-110-million-series-b-to-fuel-us-expansion-of-its-financial-management-platform/",
+      "https://www.globenewswire.com/news-release/2025/06/23/3103351/0/en/Botpress-Raises-25M-Series-B-to-Scale-AI-Agent-Infrastructure.html",
+      "https://finance.yahoo.com/news/physicsx-raises-135m-series-b-163800196.html",
+      "https://www.marketwatch.com/story/physicsx-raises-135m-in-series-b-funding-round-fad89aa0?mod=markets",
+      "https://smestreet.in/banking/kazam-secures-series-b-funding-to-expand-ev-platform-9396230",
+      "https://www.vccircle.com/vertexbacked-kazam-ropes-in-ifc-for-series-b-round-to-scale-energy-infra-for-evs"
     ]
   }
 }

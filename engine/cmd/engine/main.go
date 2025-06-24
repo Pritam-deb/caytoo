@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "caytoo/engine/internal/processor"
+	"caytoo/engine/internal/processor"
 	"context"
 	"log"
 	"time"
@@ -38,8 +38,6 @@ func main() {
 	log.Println("Successfully connected to Redis!")
 	log.Printf("Listening on queue: %s\n", queueName)
 
-	sem := make(chan struct{}, 1) // limit to 5 concurrent goroutines
-
 	// Main loop to listen for messages from the Redis queue
 	for {
 		// Blocking Pop from the right of the list (BRPOP)
@@ -59,15 +57,14 @@ func main() {
 			message := result[1]
 			log.Printf("Received message: %s\n", message)
 
-			go func(msg string) {
-				sem <- struct{}{} // acquire
-				defer func() { <-sem }() // release
+			// --- YOUR MESSAGE PROCESSING LOGIC GOES HERE ---
+			// Example: Call your AI filtering, database operations, etc.
+			log.Printf("Processing message: %s...\n", message)
+			// time.Sleep(processingTime) // Simulate work
+			processor.AnalyzeArticleAsLead(message) // Call your processing function
 
-				log.Printf("Processing message: %s...\n", msg)
-				// processor.AnalyzeArticleAsLead(msg)
-				time.Sleep(processingTime)
-				log.Printf("Finished processing message: %s\n", msg)
-			}(message)
+			log.Printf("Finished processing message: %s\n", message)
+			// --- END OF YOUR MESSAGE PROCESSING LOGIC ---
 
 		} else {
 			// This case should ideally not happen with BLPop if there's a message
