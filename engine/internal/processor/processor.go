@@ -6,12 +6,22 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
+	"time"
 
+	"github.com/go-redis/redis/v8"
 	"github.com/joho/godotenv"
 	"google.golang.org/genai"
 )
 
 var primed bool = false
+
+var ctx = context.Background()
+var rdb = redis.NewClient(&redis.Options{
+	Addr:     "localhost:6379",
+	Password: "",
+	DB:       0,
+})
 
 func getEnv(key, fallback string) string {
 	if value := os.Getenv(key); value != "" {
@@ -140,7 +150,33 @@ Industry: FMCG`)
 		log.Fatal(err)
 	}
 	log.Printf("Received result: %s\n", result.Text())
-	SaveCleanText(result.Text())
+	text := result.Text()
+	log.Printf("Received result: %s\n", text)
+	SaveCleanText(text)
+
+	if strings.Contains(text, "Lead: Yes") {
+		lead := map[string]string{
+			"title":      "Unknown",
+			"content":    "article content not stored",
+			"url_link":   link,
+			"created_at": time.Now().Format(time.RFC3339),
+			"updated_at": time.Now().Format(time.RFC3339),
+			"date":       time.Now().Format("2006-01-02"),
+		}
+
+		leadJson, err := json.Marshal(lead)
+		if err != nil {
+			log.Println("Failed to marshal lead to JSON:", err)
+			return
+		}
+
+		err = rdb.RPush(ctx, "lead_queue", leadJson).Err()
+		if err != nil {
+			log.Println("Failed to push lead to Redis:", err)
+		} else {
+			log.Println("Lead pushed to Redis successfully")
+		}
+	}
 }
 
 func SaveCleanText(cleanedText string) {

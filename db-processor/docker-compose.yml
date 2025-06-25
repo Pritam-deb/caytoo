@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: lead_db
+    restart: always
+    environment:
+      POSTGRES_USER: lead_user
+      POSTGRES_PASSWORD: strongpassword
+      POSTGRES_DB: lead_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
