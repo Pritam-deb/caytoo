@@ -3,6 +3,7 @@ package main
 import (
 	"caytoo/engine/internal/processor"
 	"context"
+	"encoding/json"
 	"log"
 	"time"
 
@@ -60,8 +61,20 @@ func main() {
 			// --- YOUR MESSAGE PROCESSING LOGIC GOES HERE ---
 			// Example: Call your AI filtering, database operations, etc.
 			log.Printf("Processing message: %s...\n", message)
-			// time.Sleep(processingTime) // Simulate work
-			processor.AnalyzeArticleAsLead(message) // Call your processing function
+
+			var payload struct {
+				Category string `json:"category"`
+				URL     string `json:"url"`
+				Date  string `json:"date"`
+			}
+
+			err = json.Unmarshal([]byte(message), &payload)
+			if err != nil {
+				log.Printf("Failed to parse message JSON: %v\n", err)
+				continue
+			}
+
+			processor.AnalyzeArticleAsLead(payload.URL, payload.Category, payload.Date)
 
 			log.Printf("Finished processing message: %s\n", message)
 			// --- END OF YOUR MESSAGE PROCESSING LOGIC ---

@@ -30,7 +30,7 @@ func getEnv(key, fallback string) string {
 	return fallback
 }
 
-func AnalyzeArticleAsLead(link string) {
+func AnalyzeArticleAsLead(link string, category string, date string) {
 	// api key is in env file
 	err := godotenv.Load()
 	if err != nil {
@@ -156,12 +156,13 @@ Industry: FMCG`)
 
 	if strings.Contains(text, "Lead: Yes") {
 		lead := map[string]string{
+			"category":   category,
 			"title":      "Unknown",
-			"content":    "article content not stored",
+			"content":    "Article content not found",
 			"url_link":   link,
 			"created_at": time.Now().Format(time.RFC3339),
 			"updated_at": time.Now().Format(time.RFC3339),
-			"date":       time.Now().Format("2006-01-02"),
+			"date":       date,
 		}
 
 		leadJson, err := json.Marshal(lead)

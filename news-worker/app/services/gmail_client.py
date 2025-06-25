@@ -77,7 +77,12 @@ def get_google_alert_links():
                 clean_url = urllib.parse.unquote(match.group(1))
                 data[subject][date].append(clean_url)
                 try:
-                    r.rpush('google_alert_links', clean_url)
+                    structured_data = {
+                        "category": subject,
+                        "date": date,
+                        "url": clean_url
+                    }
+                    r.rpush('google_alert_links', json.dumps(structured_data))
                 except Exception as e:
                     print(f"Failed to push to Redis: {e}")
 

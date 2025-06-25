@@ -13,6 +13,7 @@ model Article {
   title      String
   content    String
   url_link   String  @unique
+  image_url  String?
   created_at String
   updated_at String
   date       String

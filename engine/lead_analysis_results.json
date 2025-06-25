@@ -1,11 +1,11 @@
 [
   {
-    "result": "Lead: No\nIndustry: E-commerce / Cloud Computing (not in target industries)"
+    "result": "Lead: No\nExplanation: The company mentioned (Amazon/AWS) operates primarily in e-commerce and cloud computing, which are not among the specified industries of interest."
   },
   {
-    "result": "Lead: Yes\nIndustry: Banks (Fintech / Financial Platform)\nCompany Name: Finom\nRegion of Activity: Europe (Germany, France, Spain)\n\nSignals Detected:\n*   Funding or M\u0026A Activity: Finom has closed a €115 million Series C funding round.\n*   Market Expansion: The funding is explicitly stated to \"fuel European expansion\" and \"continue its expansion across Europe,\" indicating a focus on growing its geographical reach and market presence.\n\nExplanation: The significant funding round provides Finom with capital for growth, and their clear intent for European expansion makes them a strong candidate for marketing investment, including potential sponsorships, to enhance brand visibility in new and existing markets."
+    "result": "Lead: No\n\nExplanation: While the article indicates market expansion for Amazon (opening new fulfillment centers and creating jobs in the UK), Amazon's primary industry (e-commerce/retail/technology) is not among the desired industries for sponsorship."
   },
   {
-    "result": "Lead: No\n\n**Explanation:**\nWhile the article indicates significant investment and market expansion for Amazon (a potential buying signal), Amazon's primary industries (e-commerce, cloud computing) are not included in the specified list of target industries for sponsorship opportunities. Therefore, this lead is not relevant to the current search criteria."
+    "result": "Lead: Yes\nIndustry: Cryptocurrency / Financial Technology\n\n**Signal(s) Detected:**\n*   Funding or M\u0026A Activity\n\n**Explanation:**\nDigital Asset has successfully closed a significant $135 million funding round (Series D plus additional commitments). This substantial investment indicates a strong financial position and potential for increased marketing and brand investment.\n\n**Company Name:** Digital Asset\n**Region of Activity:** Global (implied by \"diverse group of investors\" and \"broad applicability\" of their tech)"
   }
 ]
