@@ -7,5 +7,32 @@
   },
   {
     "result": "Lead: Yes\nIndustry: Cryptocurrency / Financial Technology\n\n**Signal(s) Detected:**\n*   Funding or M\u0026A Activity\n\n**Explanation:**\nDigital Asset has successfully closed a significant $135 million funding round (Series D plus additional commitments). This substantial investment indicates a strong financial position and potential for increased marketing and brand investment.\n\n**Company Name:** Digital Asset\n**Region of Activity:** Global (implied by \"diverse group of investors\" and \"broad applicability\" of their tech)"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article is a general informational piece defining the role and responsibilities of a Chief Marketing Officer. It does not mention any specific company undergoing changes, new hires, funding, or marketing initiatives that would indicate a sponsorship opportunity. Therefore, no buying signals for a targetable company were detected."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Banks (Consumer Finance Provider)\n\nSignals Detected:\n*   New Leadership in Marketing or Branding\n\nExplanation: The appointment of Mohit Kalia as Senior VP, Sales \u0026 Marketing at HCBS (Home Credit India) indicates a strategic focus on expanding their sales and marketing efforts, often leading to increased brand investment and a greater likelihood of considering sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Banks (Financial Services)\nSignal(s) Detected: New Leadership in Marketing or Branding, Marketing \u0026 Brand Investment\nExplanation: Home Credit India (HCBS) has appointed a new Senior VP - Sales \u0026 Marketing, indicating a strategic focus on bolstering their marketing and sales initiatives, which often precedes increased brand investment."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Education and Online Learning\nCompany Name: HCBS\nRegion of Activity: India (inferred)\nSignals Detected: New Leadership in Marketing or Branding, Marketing \u0026 Brand Investment\nExplanation: The article announces the appointment of Mohit Kalia as Senior VP of Sales \u0026 Marketing for HCBS, indicating a strategic focus on expanding the company's reach, driving revenue growth, and enhancing brand presence."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article is a generic description of the Chief Marketing Officer (CMO) role, its responsibilities, and qualifications. It does not refer to a specific company's activities, hiring, or financial status, and therefore does not contain any buying signals for a sponsorship opportunity."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid\n\nExplanation: While the article highlights the appointment of a Senior VP of Sales \u0026 Marketing (a \"New Leadership in Marketing or Branding\" signal), the company's primary industries are real estate, hospitality, and education, none of which are on the list of desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Advertising Agency (not a target industry)"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\n\nSignals Detected:\n- Market Expansion\n- Funding or M\u0026A Activity\n\nExplanation: Operio Group, an investment group focused on manufacturing, has an \"aggressive growth strategy focusing on expanding its reach into new markets\" and recently acquired Reynolds Polymer Technology, indicating significant M\u0026A activity and growth plans.\n\nCompany Name: Operio Group\nRegion of Activity: Dallas (based on the article source Dallas Innovates, though the company's full operational regions aren't specified, its focus is global manufacturing and building materials)"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Applicable (Dyeing Technology)\n\nExplanation: The company, Everdye, operates in the dyeing technology sector, which does not align with the list of desired industries for sponsorship opportunities. Although funding activity was detected, the industry mismatch makes it not relevant."
   }
 ]

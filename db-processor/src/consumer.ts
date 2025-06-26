@@ -19,7 +19,10 @@ export class LeadService {
 
     async consumeLead() {
         const data = await redis.lPop('lead_queue');
-        if (!data) return;
+        if (!data) {
+            console.log('No leads to consume');
+            return;
+        };
 
         const lead = JSON.parse(data);
         // Fetch preview data

@@ -1,9 +1,12 @@
 // src/index.ts
 import express from 'express';
+import cors from 'cors';
 import { leadService } from './consumer';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
+
+app.use(cors());
 
 app.get('/get-leads', async (req, res) => {
     const leads = await leadService.getLeads();
