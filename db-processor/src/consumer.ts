@@ -18,29 +18,49 @@ export class LeadService {
     }
 
     async consumeLead() {
-        const data = await redis.lPop('lead_queue');
-        if (!data) {
-            console.log('No leads to consume');
-            return;
-        };
+        while (true) {
+            const data = await redis.lPop('lead_queue');
+            if (!data) {
+                console.log('No more leads to consume');
+                break;
+            }
 
-        const lead = JSON.parse(data);
-        // Fetch preview data
-        const preview = await getLinkPreview(lead.url_link);
+            const lead = JSON.parse(data);
 
-        if ('title' in preview && 'description' in preview && 'images' in preview) {
-            lead.title = preview.title || lead.title;
-            lead.content = preview.description || lead.content;
-            lead.image_url = preview.images?.[0] || null;
-        }
+            // Fetch preview data
+            try {
+                const preview = await getLinkPreview(lead.url_link);
 
-        console.log('Consuming lead:', lead);
+                if ('title' in preview && 'description' in preview && 'images' in preview) {
+                    lead.title = preview.title || lead.title;
+                    lead.content = preview.description || lead.content;
+                    lead.image_url = preview.images?.[0] || null;
+                }
+            } catch (err) {
+                console.error('Error fetching preview for lead:', lead.url_link, err);
+                continue;
+            }
 
-        try {
-            await prisma.article.create({ data: lead });
-            console.log('Lead saved:', lead.url_link);
-        } catch (err) {
-            console.error('Error saving lead:', err);
+            // Check if lead already exists
+            const existingLead = await prisma.article.findUnique({
+                where: {
+                    url_link: lead.url_link,
+                },
+            });
+
+            if (existingLead) {
+                console.error(`Lead with URL ${lead.url_link} already exists.`);
+                continue;
+            }
+
+            console.log('Consuming lead:', lead);
+
+            try {
+                await prisma.article.create({ data: lead });
+                console.log('Lead saved:', lead.url_link);
+            } catch (err) {
+                console.error('Error saving lead:', err);
+            }
         }
     }
 

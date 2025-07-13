@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 type Lead = {
   id: string;
-  subject?: string;
+  category?: string;
   title: string;
   content: string;
   url_link: string;
@@ -53,60 +53,49 @@ export default function Home() {
                   }
                 >
                   {category}
-                  <svg
-                    className={`w-5 h-5 ml-2 transition-transform duration-200 ${
-                      openCategories[date + category] ? "rotate-90" : ""
-                    }`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
+                  <span className="ml-2 text-2xl font-bold">
+                    {openCategories[date + category] ? "−" : "+"}
+                  </span>
                 </h3>
-                {openCategories[date + category] && (
-                  <div className="grid gap-4">
-                    {items.map((lead) => (
-                      <div
-                        key={lead.id}
-                        className="border rounded-lg p-4 shadow-md flex flex-col sm:flex-row gap-4 bg-white dark:bg-zinc-900"
-                      >
-                        {lead.image && (
-                          <img
-                            src={lead.image}
-                            alt={lead.title}
-                            className="w-full sm:w-48 h-32 object-cover rounded"
-                          />
-                        )}
-                        <div className="flex flex-col gap-1">
-                          <span className="text-sm text-gray-500 dark:text-gray-400">
-                            {lead.subject}
-                          </span>
-                          <h2 className="text-xl font-semibold">
-                            {lead.title}
-                          </h2>
-                          <p className="text-sm text-gray-700 dark:text-gray-300">
-                            {lead.content}
-                          </p>
-                          <a
-                            href={lead.url_link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 dark:text-blue-400 underline text-sm mt-2"
-                          >
-                            Visit Link
-                          </a>
-                        </div>
+                <div
+                  className={`grid gap-4 transition-all duration-500 ease-in-out overflow-hidden ${
+                    openCategories[date + category]
+                      ? "max-h-[2000px]"
+                      : "max-h-0"
+                  }`}
+                >
+                  {items.map((lead) => (
+                    <div
+                      key={lead.id}
+                      className="border rounded-lg p-4 shadow-md flex flex-col sm:flex-row gap-4 bg-white dark:bg-zinc-900"
+                    >
+                      {lead.image && (
+                        <img
+                          src={lead.image}
+                          alt={lead.title}
+                          className="w-full sm:w-48 h-32 object-cover rounded"
+                        />
+                      )}
+                      <div className="flex flex-col gap-1">
+                        <span className="text-sm text-gray-500 dark:text-gray-400">
+                          {lead.category}
+                        </span>
+                        <h2 className="text-xl font-semibold">{lead.title}</h2>
+                        <p className="text-sm text-gray-700 dark:text-gray-300">
+                          {lead.content}
+                        </p>
+                        <a
+                          href={lead.url_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 underline text-sm mt-2"
+                        >
+                          Visit Link
+                        </a>
                       </div>
-                    ))}
-                  </div>
-                )}
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
