@@ -58,7 +58,7 @@ export function renderGroupedLeads(
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 underline text-sm mt-2"
                   >
-                    Visit Link
+                    Read the article
                   </a>
                   <label className="mt-2 inline-flex items-center gap-2 text-sm">
                     <input
