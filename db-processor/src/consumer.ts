@@ -48,6 +48,11 @@ export class LeadService {
                 }
 
                 const lead = JSON.parse(data);
+                if (lead.date) {
+                    const originalDate = new Date(lead.date);
+                    originalDate.setDate(originalDate.getDate() + 1);
+                    lead.date = originalDate.toISOString().split('T')[0];
+                }
 
                 try {
                     // Fetch preview data
