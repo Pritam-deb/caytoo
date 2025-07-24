@@ -6,6 +6,9 @@ export class LeadService {
     async getLeads() {
         try {
             const leads = await prisma.article.findMany({
+                // where: {
+                //     pitched: false,
+                // },
                 orderBy: {
                     created_at: 'desc',
                 },
@@ -17,50 +20,93 @@ export class LeadService {
         }
     }
 
-    async consumeLead() {
-        while (true) {
-            const data = await redis.lPop('lead_queue');
-            if (!data) {
-                console.log('No more leads to consume');
-                break;
-            }
-
-            const lead = JSON.parse(data);
-
-            // Fetch preview data
-            try {
-                const preview = await getLinkPreview(lead.url_link);
-
-                if ('title' in preview && 'description' in preview && 'images' in preview) {
-                    lead.title = preview.title || lead.title;
-                    lead.content = preview.description || lead.content;
-                    lead.image_url = preview.images?.[0] || null;
-                }
-            } catch (err) {
-                console.error('Error fetching preview for lead:', lead.url_link, err);
-                continue;
-            }
-
-            // Check if lead already exists
-            const existingLead = await prisma.article.findUnique({
+    async getContactedLeads() {
+        try {
+            const contactedLeads = await prisma.article.findMany({
                 where: {
-                    url_link: lead.url_link,
+                    pitched: true,
+                },
+                orderBy: {
+                    created_at: 'desc',
                 },
             });
+            return contactedLeads;
+        } catch (err) {
+            console.error('Error fetching contacted leads:', err);
+            return [];
+        }
+    }
 
-            if (existingLead) {
-                console.error(`Lead with URL ${lead.url_link} already exists.`);
-                continue;
+    async consumeLead() {
+        let totalLeads = 0;
+        try {
+            while (true) {
+                const data = await redis.lPop('lead_queue');
+                if (!data) {
+                    console.log('No more leads to consume');
+                    break;
+                }
+
+                const lead = JSON.parse(data);
+
+                try {
+                    // Fetch preview data
+                    const preview = await getLinkPreview(lead.url_link);
+                    if ('title' in preview && 'description' in preview && 'images' in preview) {
+                        lead.title = preview.title || lead.title;
+                        lead.content = preview.description || lead.content;
+                        lead.image_url = preview.images?.[0] || null;
+                    }
+                } catch (err) {
+                    console.warn(`Could not fetch preview for URL ${lead.url_link}. Proceeding without preview data.`);
+                }
+
+                try {
+                    const existingLead = await prisma.article.findUnique({
+                        where: {
+                            url_link: lead.url_link,
+                        },
+                    });
+
+                    if (existingLead) {
+                        console.info(`Lead with URL ${lead.url_link} already exists. Skipping.`);
+                        continue;
+                    }
+
+                    await prisma.article.create({ data: lead });
+                    console.log('Lead saved:', lead.url_link);
+                    totalLeads++;
+                } catch (err) {
+                    console.error(`Error processing lead with URL ${lead.url_link}:`, err);
+                }
+            }
+        } catch (err) {
+            console.error('Unexpected error in consumeLead loop:', err);
+        }
+        return { totalLeads };
+    }
+
+    async updatePitched(id: string) {
+        try {
+            const currentLead = await prisma.article.findUnique({
+                where: { id },
+                select: { pitched: true },
+            });
+
+            if (!currentLead) {
+                console.warn(`Lead with ID ${id} not found.`);
+                return null;
             }
 
-            console.log('Consuming lead:', lead);
+            const updatedLead = await prisma.article.update({
+                where: { id },
+                data: { pitched: !currentLead.pitched },
+            });
 
-            try {
-                await prisma.article.create({ data: lead });
-                console.log('Lead saved:', lead.url_link);
-            } catch (err) {
-                console.error('Error saving lead:', err);
-            }
+            return updatedLead;
+        } catch (err) {
+            console.error(`Error toggling 'pitched' status for lead with ID ${id}:`, err);
+            return null;
         }
     }
 
@@ -82,5 +128,7 @@ export class LeadService {
         }
     }
 }
+
+
 
 export const leadService = new LeadService();

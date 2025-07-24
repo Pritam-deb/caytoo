@@ -34,5 +34,566 @@
   },
   {
     "result": "Lead: No\nIndustry: Not Applicable (Dyeing Technology)\n\nExplanation: The company, Everdye, operates in the dyeing technology sector, which does not align with the list of desired industries for sponsorship opportunities. Although funding activity was detected, the industry mismatch makes it not relevant."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\n\n**Signal(s) Detected:**\n*   **Market Expansion:** The article states that the new CEO, Gary Lau, will focus on \"guiding Operio Group's new phase of growth through strategic acquisitions and market expansion.\" This explicitly indicates an intent for market expansion.\n\n**Explanation:**\nThe appointment of a new CEO with a mandate for \"market expansion\" suggests the company is entering a growth phase, which often precedes increased investment in marketing and brand visibility, including potential sponsorships."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Financial Services (Gold Loans/NBFC)\n\nExplanation: The company Sahi (SahiBandhu Financial Services) operates in the gold loan and NBFC sector, which is not among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignals Detected: Marketing \u0026 Brand Investment, Youth, Culture, or Fan Engagement Focus\nExplanation: Pure Leaf Iced Tea launched a significant experiential marketing campaign in New York City, indicating substantial brand investment and a focus on engaging consumers through immersive cultural activations.\nCompany: Pure Leaf Iced Tea\nRegion of Activity: New York City, USA"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\n\n**Signals Detected:**\n*   **Marketing \u0026 Brand Investment:** PG Tips is launching an elaborate experiential brand campaign in New York City, demonstrating significant investment in brand activation and consumer engagement, and working with creative and PR agencies.\n*   **Youth, Culture, or Fan Engagement Focus:** The campaign involves a \"fake wellness pop-up\" designed to interact with and \"trick\" New Yorkers into engaging with the brand in a unique, culturally relevant way, aligning with experiential events.\n*   **Market Expansion:** The specific targeting of New York City with this campaign indicates a concentrated effort to grow or strengthen the brand's presence in that significant US market."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Marketing Data, Insights, and Consulting is not on the list of target industries).\n\nThis article describes Kantar releasing a market research report. It does not contain any buying signals such as market expansion, new marketing initiatives, leadership changes, funding, or new partnerships for Kantar itself that would indicate a propensity for sports or esports sponsorship."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article is a generic instructional piece about digital marketing campaigns and does not mention any specific company undergoing activities relevant to the identified buying signals. It offers general advice rather than reporting on a particular company's strategic initiatives or growth."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article provides a general overview of digital marketing strategies for brand monetization. It does not mention any specific company undergoing activities that align with the defined buying signals for sponsorship opportunities (e.g., market expansion, new marketing investments, leadership changes, funding, or specific partnerships). The content is educational rather than news about a potential sponsor's strategic moves."
+  },
+  {
+    "result": "Lead: Yes\nCompany: Raymond Ltd.\nIndustry: Manufacturing (Textile/Apparel) - While not explicitly listed as \"textile,\" \"Manufacturing\" is on the approved list, and Raymond is a major manufacturer.\nSignal(s) Detected: Partnerships \u0026 Sponsorships, Marketing \u0026 Brand Investment, Youth, Culture, or Fan Engagement Focus\nExplanation: The article details Raymond's \"Look Good, Feel Good\" campaign in partnership with Goonj, which demonstrates ongoing brand investment, engagement in cause-related marketing, and a focus on community/social impact that aligns with fan engagement and cultural relevance."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Advertising Agency / OOH Media)"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses consumer spending patterns in rural and urban India within the FMCG (Fast-Moving Consumer Goods) sector. FMCG is not an industry I am looking to work with. Furthermore, the article does not mention specific companies undertaking activities that align with the defined buying signals (e.g., market expansion, new marketing leadership, funding, or new partnerships)."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) Detected: Marketing \u0026 Brand Investment\nIndustry: Airlines, Automobiles, Banks, Telecommunication, Beverages, Luxury Goods, Travel and Tourism, Insurance Companies\n\nExplanation: The article indicates that numerous leading brands from preferred industries are actively investing in digital advertising campaigns at Chennai Airport. This demonstrates a clear focus on brand visibility and significant marketing spend, suggesting they are good candidates for sports or esports sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Luxury Goods\n\nSignal(s) Detected:\n*   Marketing \u0026 Brand Investment\n*   Partnerships \u0026 Sponsorships\n\nExplanation: The article highlights GIVA's launch of a new brand campaign, \"Ties of Love,\" featuring celebrity Anushka Sharma, indicating significant investment in marketing and brand visibility, and a clear precedent for celebrity partnerships."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity\nExplanation: The article details recent funding rounds for multiple Indian startups. Several companies mentioned, such as MyFund, Indxx, Spenny (all Fintech), Goenka Electric Motor Vehicles (Electric Vehicles), and GoMechanic (Automobiles), fall within the desired industry categories and their recent funding indicates budget availability and a focus on growth, making them potential sponsorship targets.\nCompany Name (examples): MyFund, Goenka Electric Motor Vehicles, Indxx, GoMechanic, Spenny\nRegion of Activity: India\nIndustry (examples): Banks/Online Trading, Electric Vehicles, Automobiles"
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article indicates funding and plans for market expansion, the company operates in the residential property management/real estate tech industry, which is not among the specified industries of interest."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity, Youth, Culture, or Fan Engagement Focus\nExplanation: The article details multiple Indian startups that have successfully closed funding rounds, indicating increased budgets for growth and potential marketing investments. Several companies mentioned, such as Zingo Electric (EV), Chingari (Cryptocurrency/Web3), and Fello (Gaming/Investment platform), operate within target industries, with Fello also showing a focus on youth engagement through gamified saving.\nCompany: Zingo Electric, Chingari, Fello, Infinity Fincorp, Jodo, Chara\nRegion of Activity: India\nIndustry: Electric Vehicles, Cryptocurrency, Online Trading, Banks, Financial Services, Manufacturing, Education and Online Learning"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Applicable (Data Platform/AI)\nExplanation: While the article highlights a significant Series B funding round for Harmonic, indicating a strong funding signal, the company's core business (cloud-native data platform, AI-driven analytics) does not align with the specified industries of interest."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Cryptocurrency\n\n**Signal(s) detected:**\n*   **Funding or M\u0026A Activity:** The article details ZeroHash's successful $100 million Series D funding round, valuing the company at $1 billion.\n*   **Market Expansion:** The company explicitly states its intention to \"expand its international footprint.\"\n\n**Explanation:** The recent significant funding round indicates a strong financial position and potential budget for new marketing initiatives, while their stated goal of international expansion suggests they may be looking for new avenues, like sports or esports sponsorships, to build brand awareness in new regions."
+  },
+  {
+    "result": "Lead: No\nIndustry: Artificial Intelligence (not a preferred industry)"
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity\nExplanation: The article details multiple Indian startups that have recently closed funding rounds, indicating new capital available. Among these, BlueLearn (online learning) and OneCard (credit card issuer/fintech) are in industries (Education and Banks/Financial Services, respectively) that are desirable for sponsorship opportunities.\nCompany Name(s): BlueLearn, OneCard\nRegion of Activity: India\nIndustry: Education and Online Learning, Financial Services"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Luxury Goods\nCompany: Luxury Goods Companies (e.g., LVMH, Kering, Richemont)\nRegion of Activity: Global\n\nSignals Detected:\n*   Market Expansion\n*   Marketing \u0026 Brand Investment\n*   Youth, Culture, or Fan Engagement Focus\n*   Funding or M\u0026A Activity\n\nExplanation: The article discusses how luxury groups are strategically expanding into the health and wellness market, which signifies a major market expansion and will require new brand investment and marketing campaigns to attract target consumers. This move also indicates a focus on evolving cultural trends and engaging with new consumer segments and their lifestyles. Given the strategic nature of this push, it is highly probable that it involves significant funding or M\u0026A activity (e.g., acquisitions, investments)."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\n\nSignals Detected:\n*   Funding or M\u0026A Activity\n\nExplanation: Indigo Ventures has successfully closed its maiden fund, with a significant portion being invested in JeH Aerospace, a manufacturer of defense and aerospace components. Companies that have recently secured funding often have increased budgets available for marketing and brand growth initiatives, including potential sponsorship opportunities.\n\nCompany: JeH Aerospace\nRegion of Activity: Bengaluru, India\nIndustry: Manufacturing"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Fintech (Online Trading, Banks, Cryptocurrency - falls under financial services)\n\nDetected Signals:\n*   Funding or M\u0026A Activity\n\nExplanation: The article details significant funding rounds and M\u0026A activities within the FinTech sector, indicating that several companies mentioned (e.g., BlockFi, Circle, SumUp) have recently secured substantial capital, which could be allocated towards marketing and brand growth initiatives like sponsorships."
+  },
+  {
+    "result": "Lead: No\nIndustry: FMCG\n\nExplanation: The article discusses Cookd, a D2C ready-to-cook brand, which falls under the FMCG (Fast-Moving Consumer Goods) or Food industry. This industry is not included in the list of target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:** The company \"Cookd\" operates in the culinary content and commerce industry, which is not among the specified preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: The company mentioned (Cookd) operates in the Ready-to-Cook Food Solutions industry (FMCG), which is not listed as a valid industry for a sponsorship approach."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing (AI Vision Robotics, as they produce embedded vision systems)\nCompany Name: RealSense\n\nSignal(s) Detected:\n- Funding or M\u0026A Activity\n\nExplanation: RealSense has successfully closed a $50 million Series A funding round, indicating a significant influx of capital and potential for growth and increased marketing investment, making them a relevant target for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nReason: The company's industry (D2C Home Decor) is not among the valid industries for lead generation."
+  },
+  {
+    "result": "Lead: No\nIndustry: Quantum Computing (Not a target industry for sponsorship opportunities)\n\nExplanation: While the article mentions significant funding activity (Quix Quantum secured a $17M Series A round), the company operates in the quantum computing sector, which is not among the specified industries of interest for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Electric Vehicles, Education and Online Learning, Banks, Travel and Tourism\n\n**Signals Detected:** Funding or M\u0026A Activity\n\n**Explanation:**\nThe article reports on multiple Indian companies that have recently closed funding rounds or engaged in mergers/acquisitions. These activities signify capital infusion or strategic shifts, indicating potential budget allocation for marketing, brand building, and market expansion, making them strong candidates for sponsorship.\n\n**Relevant Companies \u0026 Details:**\n\n*   **Ather Energy:**\n    *   Industry: Electric Vehicles\n    *   Region: India\n    *   Detail: Raised $90 million in a funding round led by Hero MotoCorp.\n\n*   **Blue Learn, Proeves, My Captain:**\n    *   Industry: Education and Online Learning (Edtech)\n    *   Region: India\n    *   Detail: Blue Learn raised $3.5 million (Seed), Proeves raised $3 million (Pre-Series A), and My Captain raised $1.7 million (Pre-Series A).\n\n*   **HSBC:**\n    *   Industry: Banks\n    *   Region: India (part of a broader international bank)\n    *   Detail: Acquired L\u0026T Finance Holdings' wealth management business.\n\n*   **OYO:**\n    *   Industry: Travel and Tourism\n    *   Region: India (part of a broader international travel tech company)\n    *   Detail: Acquired Direct Booker, a European vacation rental management company."
+  },
+  {
+    "result": "Lead: No\nExplanation: The company, Reliance Infrastructure, operates in the infrastructure and utilities sector, which is not listed in the valid industries for sponsorship consideration."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity\nExplanation: The article details several Indian startups that have recently secured funding, including Mobycy (e-mobility), FinBox (embedded finance), and Fintso (wealth management tech). This influx of capital suggests increased budget for growth and marketing, making them potential targets for sponsorship.\nCompany Name: Mobycy, FinBox, Fintso\nRegion of Activity: India\nIndustry: Electric Vehicles, Financial Services"
+  },
+  {
+    "result": "Lead: No\nReason: The company's industry (food delivery/tech) is not among the specified valid industries for sponsorship consideration."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nCompany: AXE (Unilever)\nIndustry: Beverages (FMCG, though AXE is personal care, Unilever is a large CPG conglomerate with beverage interests, and FMCG is generally a target category for sponsorships due to broad consumer reach)\nSignals Detected: Marketing \u0026 Brand Investment, Youth, Culture, or Fan Engagement Focus\nExplanation: AXE is launching a new global campaign with a focus on Gen Z audiences, indicating significant brand investment and a clear interest in youth culture engagement, making them a strong potential fit for sports/esports sponsorships.\n\nLead: Yes\nCompany: Polestar\nIndustry: Automobiles (Electric Vehicles)\nSignals Detected: Marketing \u0026 Brand Investment\nExplanation: Polestar is launching a new brand campaign aimed at establishing itself as a standalone performance EV brand, indicating significant marketing investment and a drive for brand recognition.\n\nLead: Yes\nCompany: Verizon\nIndustry: Telecommunication\nSignals Detected: Marketing \u0026 Brand Investment, Partnerships \u0026 Sponsorships\nExplanation: Verizon is launching a new campaign focused on its 5G network, featuring partnerships with athletes and music artists, demonstrating ongoing brand investment and a clear interest in leveraging celebrity/athlete endorsements and entertainment tie-ins for marketing.\n\nLead: Yes\nCompany: McDonald's\nIndustry: Beverages (and QSR)\nSignals Detected: Marketing \u0026 Brand Investment\nExplanation: McDonald's is launching a new campaign for its McCafé beverages, indicating continued investment in marketing and brand promotion."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) Detected: Partnerships \u0026 Sponsorships\nExplanation: Lexus has recently announced a new partnership, becoming the official car partner for Wimbledon 2025, indicating active investment in high-profile sports sponsorships.\nCompany: Lexus\nIndustry: Automobiles"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\n\nSignals Detected:\n*   Partnerships \u0026 Sponsorships\n*   Youth, Culture, or Fan Engagement Focus\n*   Marketing \u0026 Brand Investment\n\nExplanation: The article highlights how Liquid Death is engaging in new digital partnerships with online meme accounts, indicating a strong focus on youth marketing, modern brand engagement, and a willingness to invest in non-traditional marketing channels, which aligns with sports and esports sponsorships.\n\nCompany Name: Liquid Death\nRegion of Activity: Not specified in article, but generally US-centric."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Automobiles\n\n**Signals Detected:**\n*   Marketing \u0026 Brand Investment\n*   Partnerships \u0026 Sponsorships\n\n**Explanation:** The article highlights a new brand campaign by Tata Motors Commercial Vehicles featuring their brand ambassador Sachin Tendulkar. This indicates active investment in marketing and ongoing engagement with high-profile partnerships, making them a potential candidate for sports or esports sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\n\n**Signals Detected:**\n*   **Marketing \u0026 Brand Investment:** Tata Starbucks has rolled out a comprehensive 360-degree brand campaign called 'Take A Blonde Turn' to build awareness and highlight its Blonde Espresso beverages across digital, print, and in-store touchpoints.\n*   **New Leadership in Marketing or Branding:** The article quotes Deepa Krishnan, Chief Marketing Officer (CMO) of Tata Starbucks, discussing the new campaign and its strategic objectives.\n\n**Explanation:** The company is actively investing in a significant marketing campaign and has its Chief Marketing Officer leading this initiative, indicating a strategic focus on brand growth and consumer engagement. This makes them a good potential candidate for a sports or esports sponsorship.\n\n**Company Name:** Tata Starbucks\n**Region of Activity:** India"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignal(s) Detected: Marketing \u0026 Brand Investment, Youth, Culture, or Fan Engagement Focus\nExplanation: KFC is launching a significant new advertising campaign across multiple channels (TV, social, digital) with agency Highdive, indicating a substantial marketing investment. The campaign also specifically aims to appeal to younger consumers, highlighting a focus on youth marketing and fan engagement."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) Detected: Marketing \u0026 Brand Investment\nExplanation: Several companies across relevant industries (FMCG, Beverages, Solar/Renewable Energy) have appointed new agencies or awarded mandates for digital, creative, OOH, social media, or PR. This indicates a clear investment in marketing and brand building efforts, making them potential targets for sponsorship opportunities.\n\nCompany Name: Zydus Wellness, Adani Wilmar, Eveready Industries, Tata Consumer Products (Starbucks retail business), Sterling and Wilson Renewable Energy, Amul Butter, P Mark Mustard Oil, Odonil\nRegion of Activity: India (implied by Campaign India source)\nIndustry: FMCG, Beverages, Solar/Renewable Energy"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article discusses a report on the effectiveness and trends of CTV advertising. While it mentions that advertisers are increasing ad spend in CTV, it does not identify any specific company from the target industries that is undertaking this investment or exhibiting any other buying signals for a sponsorship opportunity. The companies mentioned (Integral Ad Science, Kantar) are in the ad tech/market research industry, which is not among the target industries."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses a general trend in the pan masala industry's OOH (Out-of-Home) advertising spend across India, rather than focusing on a specific company's individual marketing or expansion efforts that would indicate a direct sponsorship opportunity. The industry (Pan Masala) is also not listed in the preferred industries."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Luxury Goods\n\nSignals Detected:\n*   Partnerships \u0026 Sponsorships\n\nExplanation: The article explicitly states that Tyaani Jewellery has signed Kalki Koechlin as its new brand ambassador, which is a direct indicator of investment in brand promotion and partnerships.\n\nCompany Name: Tyaani Jewellery\nRegion of Activity: India (implied by the Indian celebrities and publication)"
+  },
+  {
+    "result": "Lead: No\nIndustry: Technology/AI (SaaS)\n\nExplanation: While the article indicates \"Funding or M\u0026A Activity\" (Manex AI raising an $8 million seed round), the company's industry (AI/SaaS) is not within the specified list of preferred industries."
+  },
+  {
+    "result": "Lead: Yes\nCompany: Doen\nIndustry: Banking/Finance (specifically, it seems to be an investment firm based on the context of raising funds and supporting global expansion)\nRegion of activity: Global expansion (supported by Series A round)\n\nSignal(s) Detected:\n*   Market Expansion: The article explicitly states \"Doen raises Series A round to support global expansion,\" indicating an intent to enter or expand into new regions/countries.\n*   Funding or M\u0026A Activity: The company \"closed a Series A round,\" which is a direct funding event.\n\nExplanation: Doen has secured significant funding (Series A round) specifically to fuel its global expansion, making it a strong candidate for sponsorship as it will likely be investing in brand visibility in new markets."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: FMCG (Food \u0026 Beverage)\n\nSignal(s) Detected: Funding or M\u0026A Activity, Market Expansion\n\nExplanation: The article indicates that Cookd has successfully raised Pre-Series A funding, which is a direct funding activity signal. Additionally, the funds are intended to be used for \"scaling its operations across India\" and \"expand its product portfolio,\" which signifies market expansion efforts."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a funding round, indicating potential budget availability (Funding or M\u0026A Activity), the company's industry (Deeptech Robotics) is not listed among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\nThe company, Dextall, is a modular construction startup. This industry does not fall within the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (AI Development/Enterprise Software)\nExplanation: The company mentioned operates in the AI development and enterprise software sector, which is not among the industries specified as valid for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid"
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a spin-off and Series A funding (Funding or M\u0026A Activity), the company's industry (computer vision and sensing technology) does not align with the specified list of desired industries."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a significant funding round for RealSense (a positive buying signal), the company's primary industry (AI Vision Technology/Computer Vision Hardware) is not among the specified industries of interest (Forex trading, Betting and Gambling, Airlines, Automobiles, Electric Vehicles, Banks, Cryptocurrency, Telecommunication, Manufacturing - PVC Pipe, Paints \u0026 Lubricants, Solar Panel, Beverages, Luxury Goods, Travel and Tourism, Education and Online Learning, Insurance Companies)."
+  },
+  {
+    "result": "Lead: No\nExplanation: The company, Gibran, is an AI research startup. Its industry (Technology/AI) is not on the list of preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:** While the article indicates significant funding activity (Lucidya secured $30 million in Series B funding, a strong buying signal for \"Funding or M\u0026A Activity\") and potential for \"Market Expansion\" due to this investment, the company's primary industry (AI/Customer Experience Platform - B2B SaaS) does not fall within the specified list of preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a significant funding round, the company (Nuclidium) operates in the molecular imaging/biotech industry, which is not listed as a target industry for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article mentions significant funding ($35M Series B) and plans for \"global go-to-market initiatives\" (indicating Market Expansion), the company, NetBox Labs, operates in the IT infrastructure/software industry, which is not one of the desired industries for sponsorship."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Cryptocurrency\nSignal(s) Detected: Market Expansion, Funding or M\u0026A Activity\nExplanation: Netbox Labs has secured $35M in Series B funding, which they explicitly state will be used to accelerate global expansion, including expanding their presence in Asia, Europe, and North America. This indicates a significant budget allocation for growth and market penetration.\nCompany Name: Netbox Labs\nRegion of Activity: Global, specifically Asia, Europe, and North America"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Biotechnology/Pharmaceuticals)\n\nExplanation: While the article mentions \"Funding or M\u0026A Activity\" (closed a Series B financing round), the company, Illimis Therapeutics, operates in the biotechnology and pharmaceutical industry, which is not among the specified valid industries for sponsorship."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article contains strong buying signals such as \"Funding or M\u0026A Activity\" (closed a $35M Series B funding round) and \"Marketing \u0026 Brand Investment\" (funding used to invest in sales and marketing and expand market reach), the company's industry (network infrastructure/software) is not among the desired industries for sponsorship."
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:**\nWhile Manex AI has secured $8 million in seed funding (a strong buying signal), their industry (B2B AI-powered software for supply chain and logistics) is not among the specified valid industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Relevant (AdTech)\n\n**Explanation:** The article discusses Taboola's Q4 2023 financial results and future growth outlook. While they report strong performance and a focus on growth, there are no specific buying signals detected related to market expansion, new marketing initiatives, leadership changes in marketing, new funding, partnerships (beyond their core business), or youth/fan engagement. Additionally, the company's industry (AdTech/Content Recommendations) does not fall within the specified relevant industries for sponsorship outreach."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Automobiles (Electric Vehicles focus)\nCompany: Renault\nRegion of Activity: Global (implied by CEO's strategic statement at an international conference)\n\nSignal(s) Detected: Marketing \u0026 Brand Investment\nExplanation: The CEO's strong statement that \"the future of cars has to be electric\" indicates a major strategic pivot and a deep commitment to electric vehicles. This strategic shift will necessitate significant Marketing \u0026 Brand Investment to re-position Renault's brand and extensively promote its electric vehicle offerings to the market."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article provides data and insights on the average tenure of CMOs and CROs across 14,000 executives, primarily in the SaaS industry. It does not mention any specific company's marketing initiatives, expansion plans, leadership changes, funding rounds, partnerships, or youth engagement relevant to a sponsorship opportunity. Furthermore, the core industry discussed (SaaS) is not among the target industries."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not relevant (FMCG is not on the preferred industries list).\n\nExplanation: The article discusses FMCG companies reducing headcount and marketing spend to focus on cost efficiency and profitability, which indicates a contraction rather than an expansion in marketing investment. No positive buying signals related to marketing, brand investment, or new initiatives were detected."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not a valid industry (AI/Tech)\n\nExplanation: While the article indicates \"Marketing \u0026 Brand Investment\" through the appointment of a media agency, the company's industry (AI/Tech) does not align with the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article mentions leadership changes (VideoAmp appointing a new CEO), the companies featured (VideoAmp and BrightBid) operate in the ad-tech/software industry, which is not among the specified industries of interest for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Betting and Gambling\nSignal(s) detected: New Leadership in Marketing or Branding, Market Expansion\nExplanation: The article announces the hiring of a new Vice President of Marketing, Scottie Brown, for the new Rosie's Gaming Emporium and casino in Petersburg, a brand of Churchill Downs Incorporated (CDI). This indicates new marketing leadership and a significant market expansion with the opening of a new facility.\nCompany Name: Churchill Downs Incorporated (CDI) / Rosie's Gaming Emporium\nRegion of Activity: Petersburg, Virginia, USA"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignal(s) detected: Marketing \u0026 Brand Investment\nExplanation: The article highlights Häagen-Dazs' new \"The Ice Cream of Ice Creams\" ad campaign, featuring significant investment in brand marketing and a new creative spot.\nCompany: Häagen-Dazs"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignal(s) Detected: Marketing \u0026 Brand Investment\nExplanation: The article details Heineken's expansion of contextual targeting across more brands and new ad formats like programmatic audio and Connected TV, demonstrating a significant ongoing investment in its digital marketing and advertising strategy.\nCompany: Heineken\nRegion of Activity: Global"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nDetected Signals: Marketing \u0026 Brand Investment, Partnerships \u0026 Sponsorships, Youth, Culture, or Fan Engagement Focus\nExplanation: The article discusses how major beverage brands like Frooti, Maaza, and Slice consistently invest in extensive mango-themed marketing campaigns, including celebrity endorsements, to leverage a cultural asset and connect with consumers, indicating ongoing brand and marketing spend.\nCompany Name: Frooti (Parle Agro), Maaza (Coca-Cola India), Slice (PepsiCo), Amul, Paper Boat, Havmor, Mother Dairy\nRegion of Activity: India"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignal(s) Detected: Marketing \u0026 Brand Investment\nExplanation: The article details a new global advertising campaign for Haagen-Dazs, indicating significant investment in marketing and a focus on brand visibility, which makes them a suitable prospect for sponsorship."
+  },
+  {
+    "result": "Lead: No\nExplanation: The company, JCPenney, operates in the retail/department store industry, which is not among the specified industries of interest for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses a city branding campaign for Chennai, an initiative by city corporations and government bodies, not a commercial company from the specified target industries. Therefore, it is not a relevant lead for a commercial sports or esports sponsorship opportunity."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nExplanation: The company mentioned, Domino's, operates in the fast-food and pizza delivery industry, which is not among the specified industries of interest."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Relevant (Food/QSR)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not valid (Streaming/Entertainment, which is not on the list of preferred industries)."
+  },
+  {
+    "result": "Lead: No\nIndustry: Software/Tech\n\nExplanation: While the article indicates funding and plans for market expansion, the company's industry (AI-powered integration platform/B2B SaaS) does not align with the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Biotechnology/Medical Devices\n\n**Explanation:** The article details Cooler Heads' Series A funding for their scalp cooling technology. While funding is a buying signal, the company's industry (biotechnology/medical devices for oncology patients) does not align with the specified list of desired industries (Forex trading, Betting and Gambling, Airlines, Automobiles, etc.). Therefore, it is not considered a relevant lead for a sports or esports sponsorship."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (AI/Software)\nExplanation: While the article mentions Composio raising $2.5 million in Series A funding, which is a buying signal, the company's industry (Agentic AI startup) does not fall within the specified list of preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: While Delve has successfully closed a significant Series A funding round, which is a strong buying signal for potential brand investment, its primary industry (AI/SaaS for compliance) is not listed among your desired target industries.\nCompany: Delve\nIndustry: AI/SaaS for Compliance"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: This article provides a high-level overview of venture funding and M\u0026A trends in the startup ecosystem, particularly focusing on AI. It does not mention specific companies within the target industries undergoing activities that would signal an immediate interest in sports or esports sponsorships, such as launching brand campaigns, appointing new marketing leadership, or allocating specific budgets for brand growth. The information is too general to identify a direct lead."
+  },
+  {
+    "result": "Lead: No\nIndustry: Tech (AI/Software)\n\nExplanation: The article discusses Composio, an Agentic AI startup, which operates in the Technology industry. The Technology industry (specifically AI/software development) is not within the list of desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions Delve raising $32M in Series A funding, indicating a \"Funding or M\u0026A Activity\" signal, the company's industry (AI for supply chain risk mitigation) is not among the preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Software/HR Tech (Not a valid industry for this project)\n\n**Explanation:** While the article mentions a funding round (a buying signal), the company's industry (AI-powered compensation planning platform) does not align with the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Education and Online Learning\n\nSignals Detected:\n*   **Funding or M\u0026A Activity:** The article explicitly states, \"EduFund secures $6M in Series A\" funding.\n*   **Market Expansion:** The funding is aimed to \"accelerate product development, expand market reach, and enhance customer acquisition initiatives.\" The mention of \"expand market reach\" directly indicates market expansion plans.\n*   **Marketing \u0026 Brand Investment:** The goal to \"enhance customer acquisition initiatives\" suggests an increased focus and budget allocation towards marketing and brand efforts to acquire new customers.\n\nExplanation: EduFund has recently secured significant Series A funding, which they plan to use for product development, expanding their market reach, and enhancing customer acquisition, making them a strong candidate for sponsorship opportunities as they look to grow and invest in their brand presence."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Gaming/Entertainment)"
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity, Market Expansion\nExplanation: Xelix has closed a significant Series B funding round ($160 million) and explicitly stated plans for global expansion and doubling headcount, indicating a strong growth phase and potential for increased brand investment.\nCompany name: Xelix\nRegion of activity: Global (expanding from Europe/UK)\nIndustry: Fintech (serving financial institutions/enterprises)"
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a funding round (a buying signal), the company Asylon, which develops robot guard dogs and drone security systems, operates in the security technology/robotics industry, which is not among the specified target industries."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not a valid industry (FinTech/B2B Data Analytics)"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\nCompany: xLight\nRegion of activity: Global (implied by \"expand its market reach globally\")\nSignal(s) detected: Funding or M\u0026A Activity, Market Expansion\nExplanation: xLight has successfully closed a $40 million Series B funding round, indicating significant new capital. The company explicitly states the funds will be used to \"expand its market reach globally,\" suggesting an upcoming investment in brand visibility and market penetration, making them a good potential target for sponsorship."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Semiconductor startup)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Software/FinTech (B2B SaaS)\n\nExplanation: While the article indicates buying signals such as \"Funding or M\u0026A Activity\" (Xelix closed a $160 million Series B funding round) and \"Market Expansion\" (\"global expansion\"), Xelix's industry (AI-powered Accounts Payable software) is not among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Travel and Tourism\nSignal(s) Detected: Funding or M\u0026A Activity\nExplanation: The article discusses a significant increase in funding for the travel and tourism sector, highlighting companies like Impala and Etraveli Group that have recently closed funding rounds (Series B and financing respectively), indicating potential budget for growth initiatives."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Fintech (related to Banks, Online Trading)\n\nSignals Detected:\n*   Funding or M\u0026A Activity\n*   Market Expansion\n*   Marketing \u0026 Brand Investment\n\nExplanation: Xelix, an AI-powered Accounts Payable firm, has raised $160 million in Series B funding, explicitly stating plans for global expansion and recruitment across sales and marketing departments to solidify its market position.\nCompany Name: Xelix\nRegion of Activity: Global (North America, Europe, Asia-Pacific)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses job cuts and a slowdown in hiring within the FMCG sector due to tough economic conditions, indicating a period of cost rationalization rather than growth or marketing investment. Furthermore, FMCG is not among the preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article contains strong buying signals such as \"Marketing \u0026 Brand Investment\" (Anthropic hiring a media agency to ramp up outbound marketing and build its brand) and \"Funding or M\u0026A Activity\" (described as \"well-funded\" and \"raising a significant amount of funding\"), the company's industry (AI safety and research) is not among the desired industries for sponsorship opportunities.\n\nCompany: Anthropic\nIndustry: AI/Technology"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Betting and Gambling\nCompany: Bally's Corporation (via its Petersburg Casino project)\nRegion: Petersburg, Virginia, USA\n\nSignal(s) detected:\n*   New Leadership in Marketing or Branding\n\nExplanation: The article explicitly mentions the hiring of a new Head of Marketing for the upcoming Petersburg casino project, indicating a new strategic focus or readiness for significant marketing initiatives."
+  },
+  {
+    "result": "Lead: Yes\nCompany: Apple\nIndustry: Luxury Goods\nSignal(s) detected: Marketing \u0026 Brand Investment\nExplanation: Apple is featured for launching a new campaign, indicating active marketing spend and a focus on brand communication. As a company with premium products often considered luxury goods, they are a potential lead for sports or esports sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nRegion of Activity: Global (specifically mentioning Europe, North America, and Mexico for expansion)\nSignal(s) Detected: Market Expansion, Marketing \u0026 Brand Investment\nExplanation: Heineken is expanding its contextual targeting strategy from Europe to North America and Mexico, with plans to scale globally, indicating a significant investment in its digital brand campaigns and a strategic focus on expanding its marketing reach into new regions."
+  },
+  {
+    "result": "Lead: No\nExplanation: This article discusses a marketing trend (brands leveraging mangoes in India) rather than providing specific buying signals for a particular company. While it mentions several brands, it does not indicate new market expansion, significant marketing investment increases, new leadership hires, funding activities, or active pursuits of large-scale sponsorships that would make them a direct lead for sports or esports opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Ice Cream/FMCG)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Travel and Tourism\n\nSignals Detected:\n*   Market Expansion: The campaign aims to \"elevate Chennai's global image\" and \"make Chennai a global city,\" indicating an intent to expand its international reach and appeal.\n*   Marketing \u0026 Brand Investment: Super Chennai is launching \"India's first citizen-led city branding campaign\" with comprehensive digital, social media, and influencer engagement, signifying significant investment in marketing and brand building.\n*   Partnerships \u0026 Sponsorships: The initiative is designed to involve citizens and seeks \"partnerships with corporate houses,\" explicitly mentioning a desire for external collaborations.\n*   Youth, Culture, or Fan Engagement Focus: The campaign \"collaborated with 25 youth changemakers\" and focuses on \"youth-centric content\" to engage Gen Z and other citizens.\n\nExplanation: The article highlights a new, large-scale city branding campaign by \"Super Chennai\" focused on global image elevation, extensive marketing, and engaging youth and corporate partners. This indicates a significant budget and strategic intent for broad visibility and collaboration, making them a good fit for a sponsorship approach aimed at a global audience or specific demographic."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article is a general expert opinion piece discussing trends and strategies in Out-of-Home (OOH) advertising in India during the monsoon season. It does not focus on any specific company's new initiatives (e.g., market expansion, new leadership, funding, specific brand campaigns, or new partnerships/sponsorships) that would indicate a direct buying signal for a sports or esports sponsorship opportunity. It mentions various industries and brands, but only in the context of their general advertising practices."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article describes a technological partnership and innovation effort by Domino's, the company's industry (Food/QSR) is not among the desired categories for potential sponsorship leads."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nCompany: Domino's\nRegion of Activity: Japan (for this trial)\n\nSignals Detected:\n*   **Marketing \u0026 Brand Investment**: Domino's is investing in innovative delivery technology (robot dogs), which serves as a significant brand and marketing initiative to enhance customer experience and generate public interest.\n*   **Youth, Culture, or Fan Engagement Focus**: The trial of advanced robotics for delivery indicates a forward-thinking approach aimed at appealing to tech-savvy consumers and creating unique brand experiences."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses how talent management agencies are investing in in-house analytics capabilities to better serve their clients (brands). The companies mentioned (talent management agencies, media agencies) are not within the target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses Netflix's approach to brand partnerships, highlighting strong marketing and partnership strategies, and features their CMO. However, Netflix operates in the entertainment/streaming industry, which is not among the client's target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not valid (AI Software/B2B Tech)\n\nExplanation: While the article mentions Composio raising $2.5 million in seed funding, which is a buying signal (Funding or M\u0026A Activity), the company's industry (AI Software/B2B Tech) does not fall within the specified valid industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions a significant funding round (Series A), the company's primary industry (AI/RegTech for compliance) is not among the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: This article is a market report analyzing venture capital trends, funding activities, and M\u0026A across the startup ecosystem. It does not focus on a specific company's strategic initiatives, leadership changes, or marketing plans, nor does it fall within the desired industry categories for direct sponsorship outreach."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions Composio securing funding, which is a buying signal, the company operates in the AI and enterprise software industry, which is not among the target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Financial Technology (relevant to Banks/Financial Services)\nSignal(s) detected: Funding or M\u0026A Activity, Market Expansion\nExplanation: Delve has raised $32M in Series A funding, which often leads to increased marketing spend. The company explicitly states the funds will be used to expand operations and business reach, indicating potential for new marketing initiatives."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not a preferred industry (HR Tech/Software)"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Education and Online Learning\nCompany: EduFund\nRegion of Activity: India (implied)\n\n**Signals Detected:**\n*   **Funding or M\u0026A Activity**: EduFund has secured $6 million in Series A funding, indicating a significant influx of capital and a likely budget increase for growth initiatives.\n*   **Market Expansion**: The company plans to \"expand into Tier 2 and Tier 3 cities,\" demonstrating an active strategy for increasing its market reach.\n*   **Youth, Culture, or Fan Engagement Focus**: The company's core business is providing financial guidance for education, primarily targeting parents and students, aligning with a youth-centric focus."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid\n\nExplanation: The article discusses Xelix, a company in the AI-powered Accounts Payable (B2B SaaS) industry, which is not among the specified target industries for sponsorship opportunities. Although a funding round was announced, the industry itself makes it not relevant for this lead generation."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article indicates a significant funding round (Funding or M\u0026A Activity), the company's industry (Robotics/Security Technology) is not listed among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nReason: The company's industry (AI-powered data analytics for enterprise solutions) is not on the list of preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Semiconductor\n\nExplanation: While the article mentions a funding round (Series B), the company's industry (Semiconductor) is not within the specified list of desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Fintech (serving Financial Institutions)\nSignal(s) detected: Funding or M\u0026A Activity, Market Expansion\nExplanation: Xelix has closed a significant Series B funding round, indicating new capital is available. They explicitly state plans to use this funding for global expansion, particularly into the US market, which is a key buying signal.\nCompany Name: Xelix\nRegion of Activity: UK (expanding into US)"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article mentions Xelix closing a significant funding round, indicating \"Funding or M\u0026A Activity,\" Xelix operates in the B2B software/fintech sector (AI-powered accounts payable control solutions), which is not within the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Travel and Tourism\n\n**Signal(s) Detected:**\n*   Funding or M\u0026A Activity\n*   Market Expansion\n\n**Explanation:** The article highlights the significant increase in funding for the travel and tourism sector in Q1 2024, with European travel tech companies like eTraveli Group reaching unicorn status. This influx of capital suggests companies in this space are well-funded and likely looking to invest in marketing and growth, potentially including sponsorships, to expand their market presence.\n\n**Company Name:** eTraveli Group (mentioned specifically) and other European travel tech companies (generally)\n**Region of Activity:** Europe (primarily), Global (travel tech market)"
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions Inforcer raising a Series B funding round, which is a buying signal, the company's industry (B2B cybersecurity/AI for MSPs) does not fall within the specified target industries."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article contains strong buying signals such as significant funding and plans for market expansion, the company's industry (Accounts payable AI software / B2B Fintech) is not listed among your preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses OpenAI's expansion into the UK, which falls under \"Market Expansion.\" However, OpenAI's industry (Artificial Intelligence/Tech) is not listed among the preferred industries for sponsorship."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The company mentioned operates in the AI/Technology sector, which is not among the specified valid industries for sponsorship consideration."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Artificial Intelligence (AI) - Not a preferred industry."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Airlines\n\nSignal(s) Detected: Market Expansion\nExplanation: The article details Wizz Air's significant expansion of its flight routes and presence in the UK and European markets, indicating a strong focus on growth and market share, which often correlates with increased marketing and brand investment.\n\nCompany Name: Wizz Air\nRegion of Activity: UK, Europe"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article is a governmental written statement about the expansion of the UK Emissions Trading Scheme to the waste and maritime sectors. It discusses regulatory policy changes rather than the commercial activities, marketing initiatives, or financial status of specific companies that would indicate a buying signal for sponsorship opportunities. No relevant companies or buying signals were detected."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Betting and Gambling\n\nSignals Detected:\n*   Market Expansion\n*   Funding or M\u0026A Activity\n\nExplanation: The article indicates that UK betting firm Entain is actively expanding into new markets, particularly the United States, and has recently completed significant acquisitions (SuperSport and STS Holdings). This demonstrates a strong growth trajectory and available budget for strategic investments, making them a potential candidate for sports or esports sponsorships.\n\nCompany: Entain Plc\nRegion of Activity: UK (headquarters), expanding into US, Croatia, Poland."
+  },
+  {
+    "result": "Lead: No\nIndustry: Software/Tech\n\nExplanation: The company, Osapiens, operates in the AI-powered SaaS solutions for supply chain optimization industry, which is not among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Pharmaceutical\n\nExplanation: While the article mentions buying signals such such as \"Funding or M\u0026A Activity\" (Series C funding round) and \"Market Expansion\" (expanding global efforts, opening new R\u0026D facility), the pharmaceutical industry is not one of the specified industries for which leads are to be generated."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Pharmaceuticals)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:** The article is a broad market report on the \"State of Startups\" and overall trends in venture capital funding and M\u0026A activity across various sectors. While it discusses general market signals related to \"Funding or M\u0026A Activity,\" it does not identify or focus on specific companies within your target industries (Forex trading, Betting and Gambling, Airlines, Automobiles, etc.) that exhibit actionable buying signals for sponsorship opportunities. The information is too general to constitute a direct lead."
+  },
+  {
+    "result": "Lead: No\n\nThis article is not relevant because the company, Phlow, operates in the pharmaceutical/medicine development and manufacturing industry, which is not on the list of preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\n\nSignals: Market Expansion, Funding or M\u0026A Activity\n\nExplanation: Jaipur Robotics secured seed funding to expand its market reach globally, especially in Europe, indicating a focus on growth and potential allocation of budget for brand-building and market penetration initiatives.\n\nCompany Name: Jaipur Robotics\nRegion of Activity: India (origin), expanding globally (especially Europe)"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (HR Technology)\n\nExplanation: While the article mentions a significant funding round for Ashby (a buying signal), the company operates in the HR technology sector, which is not one of the specified industries of interest."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: FinTech / Financial Services (Relevant to \"Banks\")\n\nSignals Detected:\n*   Funding or M\u0026A Activity: Proxymity has successfully raised a $36 million Series C funding round.\n*   Market Expansion: The article explicitly states that the funding will be used to support Proxymity’s \"continued global expansion.\"\n\nExplanation: The significant funding round and stated intent for global expansion indicate a period of growth and increased budget allocation, making Proxymity a potential candidate for sponsorship to enhance brand visibility during their expansion phase.\n\nCompany Name: Proxymity\nRegion of Activity: Global (for expansion)"
+  },
+  {
+    "result": "Lead: No\nExplanation: The company, Proxymity, operates as a digital investor communications platform within the B2B FinTech sector, which does not align with the specified industries of interest for sponsorship opportunities (e.g., Banks, Online Trading, Airlines, etc.)."
+  },
+  {
+    "result": "Lead: No\nIndustry: SaaS\n\nExplanation: While the article mentions a significant funding round for Hyper ($6.3 million in a seed round, indicating \"Funding or M\u0026A Activity\"), the company's industry (SaaS/software development) does not align with the specified target industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Fintech (related to Banks / Financial Services)\n\nSignal(s) Detected:\n*   Funding or M\u0026A Activity\n\nExplanation: April has successfully closed a $38M Series B funding round, indicating significant growth and increased financial capacity, which makes them a potential candidate for investing in brand-building activities like sports sponsorships."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not in desired industries (Quantum Computing)"
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) Detected: Funding or M\u0026A Activity\nExplanation: The company April has successfully closed a $38M Series B funding round, indicating growth and potential budget for marketing and brand initiatives.\nCompany Name: April\nRegion of Activity: US (mentioned as \"US households and financial institutions\")\nIndustry: Fintech (related to Banks/Financial Services)"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Gaming (Mobile Gaming / Social Casino Games, related to Betting and Gambling)\nSignal(s) Detected: Funding or M\u0026A Activity\nExplanation: Playtika, a major mobile gaming company, acquired Samfin for $100 million and holds significant cash reserves ($1.4 billion), indicating strong financial health and strategic growth that could lead to increased marketing and brand investment, including sponsorships.\nCompany: Playtika"
+  },
+  {
+    "result": "Lead: No\n\nThis article is not relevant because Asylon Robotics, operating in the robotics, automated security, and AI industry, does not fall under the specified desired industries for sponsorship."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not a target industry."
+  },
+  {
+    "result": "Lead: No\nIndustry: Pharmaceuticals\n\nExplanation: The company, Gesynta Pharma, operates in the pharmaceutical/biotech industry, which is not among the desired industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Software/SaaS)"
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article indicates a funding round (a buying signal), the company's industry (Artificial Intelligence) is not one of the specified industries you wish to work with."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses the New York State government hiring a Chief AI Officer. This role is a technology/strategy position, not a marketing or branding leadership role as specified in the buying signals. Furthermore, \"New York State\" (a government entity) does not fall under the preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Education and Online Learning\n\nSignals Detected:\n*   Funding or M\u0026A Activity\n*   Market Expansion\n\nExplanation: iTuring recently closed a $5 million Series A funding round, providing capital for growth. The company explicitly stated that a portion of these funds will be deployed for market expansion across India and Southeast Asia.\n\nCompany Name: iTuring\nRegion: India and Southeast Asia"
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:** While the article details strong buying signals such as \"Funding or M\u0026A Activity\" (raising $15 million in Series A) and \"Market Expansion\" (supercharging global expansion plans), the company's industry (AI-powered influencer marketing platform / SaaS) is not listed among the target industries."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article mentions \"Modern Baker\" raising £2.5M in Series A funding (a strong buying signal), the company's industry (bakery/food manufacturing) is not listed among the target industries for sponsorship."
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity\n\nExplanation: The article highlights multiple companies across relevant industries that have recently closed significant funding rounds. This influx of capital suggests an increased budget for growth initiatives, including potential marketing and brand investment, making them good prospects for sponsorship.\n\nCompanies and Industries:\n*   **Lohum** (Electric Vehicles, Noida): Secured $42 million in Series B funding.\n*   **KoinX** (Cryptocurrency, Bengaluru): Raised $1.5 million in seed funding.\n*   **Kluisz AI** (Financial Services / AI Wealth Management, Gurugram): Received $1 million in seed funding for its AI-driven wealth management platform targeting retail investors."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not valid (Infrastructure Automation / B2B Software is not on the target list).\n\n**Explanation:** While the article mentions a funding round (a buying signal), the company \"Enlite\" is an \"infra automation startup,\" which does not fall under the specified target industries for sponsorship opportunities (e.g., Forex, Betting, Airlines, Automobiles, etc.)."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Luxury Goods\n\nSignals Detected:\n- Market Expansion\n- Marketing \u0026 Brand Investment\n- Funding or M\u0026A Activity\n\nExplanation: Anny has successfully closed a Pre-Series A funding round, and a significant portion of the raised capital is explicitly allocated to fortify its brand presence through extensive marketing initiatives and broaden its reach across key markets. This indicates a clear intent for growth and increased brand visibility.\n\nCompany Name: Anny\nRegion of Activity: India"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Banks (Fintech)\n\nSignals Detected: Funding or M\u0026A Activity\n\nExplanation: April has successfully closed a $30M Series A funding round, indicating new capital available for growth, which often includes increased marketing and brand investment. The company's focus on \"bolstering go-to-market efforts\" further suggests an upcoming push for visibility and expansion.\n\nCompany Name: April\nRegion of Activity: North America (US-focused, co-founded by Israelis)"
+  },
+  {
+    "result": "Lead: No\nIndustry: Not a valid industry (Property Management)"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Manufacturing\nSignal(s) detected: Funding or M\u0026A Activity\nExplanation: Qant, a photonic chip company, has successfully closed a significant $72 million Series A funding round. This new capital indicates financial capacity for growth initiatives, which may include investments in marketing and brand building through sponsorships.\nCompany Name: Qant\nRegion of activity: Boston, Massachusetts, USA (headquarters)"
+  },
+  {
+    "result": "Lead: No\nIndustry: Health-tech (Not a preferred industry)"
   }
 ]

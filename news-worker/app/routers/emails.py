@@ -10,9 +10,9 @@ router = APIRouter(prefix="/emails", tags=["emails"])
 @router.get("/links/")
 async def read_emails(background_tasks: BackgroundTasks):
     # background_tasks.add_task(process_gmail_alerts)
-    await process_gmail_alerts()
+    links = await process_gmail_alerts()
     print("Gmail alerts processed.")
-    return {"status": "Gmail alerts processed."}
+    return {"status": "Gmail alerts processed.", "total_links": links}
 
 
 @router.get("/scrape/")

@@ -17,4 +17,5 @@ model Article {
   created_at String
   updated_at String
   date       String
+  pitched    Boolean @default(false)
 }

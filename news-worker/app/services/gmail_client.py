@@ -93,13 +93,14 @@ def get_google_alert_links():
                     r.rpush('google_alert_links', json.dumps(structured_data))
                 except Exception as e:
                     print(f"Failed to push to Redis: {e}")
-
+    totalLinks =0
     for subject, dates in data.items():
         print(f"Subject: {subject}")
         for date, links in dates.items():
+            totalLinks += len(links)
             print(f"  {date}: {len(links)} links")
 
     with open("articles.json", "w") as f:
         json.dump(data, f, indent=2)
-
+    data['total_links'] = totalLinks
     return data
