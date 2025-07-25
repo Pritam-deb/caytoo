@@ -31,6 +31,23 @@ export default function Home() {
       .catch((err) => console.error("Error fetching leads:", err));
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(async () => {
+      try {
+        const res = await fetch("http://localhost:3001/check-processing");
+        const data = await res.json();
+        if (!data.processing) {
+          setShowFilterButton(true);
+          clearInterval(interval);
+        }
+      } catch (error) {
+        console.error("Error checking processing status:", error);
+      }
+    }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   const contactedLeads = leads.filter((lead) => lead.pitched);
   const uncontactedLeads = leads.filter((lead) => !lead.pitched);
 
@@ -46,7 +63,6 @@ export default function Home() {
             const data = await res.json();
             if (res.ok && data.total_links !== undefined) {
               alert(`Found ${data.total_links} links.`);
-              setShowFilterButton(true);
             } else {
               alert("Something went wrong while fetching links.");
             }

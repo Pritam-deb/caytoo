@@ -2,6 +2,7 @@
 import express from 'express';
 import cors from 'cors';
 import { leadService } from './consumer';
+import { redis } from './db';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -51,6 +52,11 @@ app.delete('/delete', async (req, res) => {
     await leadService.deleteLead();
     res.send('Deleted old articles older than 4 days');
 })
+
+app.get("/check-processing", async (req, res) => {
+    const flag = await redis.get("article_processing");
+    res.json({ processing: flag === "true" });
+});
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
