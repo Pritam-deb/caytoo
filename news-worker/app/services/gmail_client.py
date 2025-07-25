@@ -51,6 +51,7 @@ def get_google_alert_links():
     print(f"Found {len(messages)} Google Alert emails.")
     data = defaultdict(lambda: defaultdict(list))
     r = redis.Redis(host='localhost', port=6379, db=0)
+    r.set("article_processing", "true")
 
     for msg in messages:  # Limit to recent 5
         msg_data = service.users().messages().get(userId='me', id=msg['id'], format='raw').execute()
