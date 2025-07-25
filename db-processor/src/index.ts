@@ -44,7 +44,7 @@ app.patch("/update-pitched", async (req, res) => {
 
 app.get('/consume', async (req, res) => {
     const totalLeads = await leadService.consumeLead();
-    res.send('Consumed leads from Redis: ' + totalLeads);
+    res.send('Consumed leads from Redis: ' + totalLeads.totalLeads);
 });
 
 app.delete('/delete', async (req, res) => {

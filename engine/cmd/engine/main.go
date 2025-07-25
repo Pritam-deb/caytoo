@@ -12,11 +12,11 @@ import (
 
 // Configuration constants (consider moving to a config file or env variables for production)
 const (
-	redisAddr     = "localhost:6379" // Your Redis server address
-	redisPassword = ""               // Your Redis password, if any
-	redisDB       = 0                // Default Redis DB
-	queueName     = "google_alert_links" // The name of the Redis list to use as a queue
-	processingTime = 2 * time.Second    // Simulate some work
+	redisAddr      = "localhost:6379"     // Your Redis server address
+	redisPassword  = ""                   // Your Redis password, if any
+	redisDB        = 0                    // Default Redis DB
+	queueName      = "google_alert_links" // The name of the Redis list to use as a queue
+	processingTime = 2 * time.Second      // Simulate some work
 )
 
 var ctx = context.Background()
@@ -64,8 +64,8 @@ func main() {
 
 			var payload struct {
 				Category string `json:"category"`
-				URL     string `json:"url"`
-				Date  string `json:"date"`
+				URL      string `json:"url"`
+				Date     string `json:"date"`
 			}
 
 			err = json.Unmarshal([]byte(message), &payload)
@@ -77,6 +77,13 @@ func main() {
 			processor.AnalyzeArticleAsLead(payload.URL, payload.Category, payload.Date)
 
 			log.Printf("Finished processing message: %s\n", message)
+			// Check if the queue is now empty
+			queueLength, err := rdb.LLen(ctx, queueName).Result()
+			if err != nil {
+				log.Printf("Error checking queue length: %v\n", err)
+			} else if queueLength == 0 {
+				log.Println("Queue is now empty.")
+			}
 			// --- END OF YOUR MESSAGE PROCESSING LOGIC ---
 
 		} else {
