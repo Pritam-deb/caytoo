@@ -83,6 +83,12 @@ func main() {
 				log.Printf("Error checking queue length: %v\n", err)
 			} else if queueLength == 0 {
 				log.Println("Queue is now empty.")
+				err := rdb.Set(ctx, "article_processing", "false", 0).Err()
+				if err != nil {
+					log.Printf("Error setting article_processing flag: %v\n", err)
+				} else {
+					log.Println("article_processing flag set to false.")
+				}
 			}
 			// --- END OF YOUR MESSAGE PROCESSING LOGIC ---
 
