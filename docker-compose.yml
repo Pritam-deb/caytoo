@@ -21,5 +21,18 @@ services:
     ports:
       - "6379:6379"
 
+  news-worker:
+    build:
+      context: ./news-worker
+    container_name: caytoo_NewsWorker
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./news-worker:/app
+    depends_on:
+      - db
+      - redis
+
 volumes:
   db_data:
