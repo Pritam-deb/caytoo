@@ -34,5 +34,29 @@ services:
       - db
       - redis
 
+  engine:
+    build:
+      context: ./engine
+    container_name: caytoo_Engine
+    command: go run cmd/engine/main.go
+    volumes:
+      - ./engine:/app
+    depends_on:
+      - redis
+
+  db-processor:
+    build:
+      context: ./db-processor
+    container_name: caytoo_DBProcessor
+    command: npm run dev
+    ports:
+      - "3001:3001"
+      - "5555:5555" # For Prisma Studio
+    volumes:
+      - ./db-processor:/app
+    depends_on:
+      - db
+      - redis
+
 volumes:
   db_data:

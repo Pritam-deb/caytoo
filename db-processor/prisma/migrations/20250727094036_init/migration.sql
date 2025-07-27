@@ -1,13 +1,15 @@
 -- CreateTable
 CREATE TABLE "Article" (
     "id" TEXT NOT NULL,
-    "category" TEXT NOT NULL,
+    "category" TEXT,
     "title" TEXT NOT NULL,
     "content" TEXT NOT NULL,
     "url_link" TEXT NOT NULL,
+    "image_url" TEXT,
     "created_at" TEXT NOT NULL,
     "updated_at" TEXT NOT NULL,
     "date" TEXT NOT NULL,
+    "pitched" BOOLEAN NOT NULL DEFAULT false,
 
     CONSTRAINT "Article_pkey" PRIMARY KEY ("id")
 );

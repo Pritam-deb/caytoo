@@ -18,7 +18,7 @@ var primed bool = false
 
 var ctx = context.Background()
 var rdb = redis.NewClient(&redis.Options{
-	Addr:     "localhost:6379",
+	Addr:     "redis:6379",
 	Password: "",
 	DB:       0,
 })
@@ -45,7 +45,7 @@ func AnalyzeArticleAsLead(link string, category string, date string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	
+
 	var primmingprompt string
 	var prompt string
 	if !primed {
@@ -126,7 +126,6 @@ Industry: FMCG`)
 		SystemInstruction: genai.NewContentFromText(primmingprompt, genai.RoleUser),
 	}
 
-	
 	prompt = fmt.Sprintf(`Here is the Link to article: %s`, link)
 
 	countResp, err := client.Models.CountTokens(
