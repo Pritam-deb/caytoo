@@ -43,6 +43,7 @@ services:
       - ./engine:/app
     depends_on:
       - redis
+      - news-worker
 
   db-processor:
     build:
@@ -57,6 +58,20 @@ services:
     depends_on:
       - db
       - redis
+      - engine
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: caytoo_Frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - db-processor
+      - news-worker
+      - engine
 
 volumes:
   db_data:

@@ -991,5 +991,119 @@
   },
   {
     "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: IT Services / Digital Engineering (Not a valid industry for desired leads)\n\nExplanation: While the article mentions a new Chief Marketing Officer (CMO), which is typically a buying signal, the company's industry (IT Services/Digital Engineering) is not among the specified industries of interest."
+  },
+  {
+    "result": "Lead: Yes\nSignals Detected: Marketing \u0026 Brand Investment, Partnerships \u0026 Sponsorships, Youth, Culture, or Fan Engagement Focus.\nExplanation: The article discusses a significant trend where brands are investing in innovative digital marketing strategies, leveraging fictional characters and cultural moments to engage young audiences, generate virality, and foster fan engagement. This indicates a strong focus on brand investment, unique partnerships, and connecting with youth culture, which aligns well with sports and esports sponsorship objectives.\nCompany Name (Example from article): Duolingo\nIndustry (Example from article): Education and Online Learning"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article focuses on the growth and hiring trends within advertising agencies, not on consumer brands or companies that would directly engage in sports or esports sponsorships. The companies mentioned (advertising agencies) are service providers to potential sponsors, not direct sponsorship prospects themselves. Furthermore, none of the industries mentioned in the article (advertising agencies) align with the preferred industries for partnership."
+  },
+  {
+    "result": "Lead: No\nIndustry: Not Valid (Biotech/Pharmaceuticals)"
+  },
+  {
+    "result": "Lead: Yes\nSignal Detected: Marketing \u0026 Brand Investment\nExplanation: The article reports on active advertising campaigns by multiple companies in the Automobiles, Telecommunication, and Luxury Goods sectors, such as Bajaj Auto, Vivo, and Tanishq. This indicates ongoing marketing investment and a focus on brand visibility.\nIndustry: Automobiles, Telecommunication, Luxury Goods\nRegion of Activity: India"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The provided URL links to a generic \"Weekly Ads\" page on Adgully, which displays various advertisements from different companies across multiple sectors. It is a compilation of ad creatives rather than an article discussing a specific company's strategic initiatives, leadership changes, funding, or expansion plans. Therefore, it does not contain the necessary buying signals (Market Expansion, Marketing \u0026 Brand Investment [strategic announcements], New Leadership, Funding or M\u0026A, Partnerships \u0026 Sponsorships, or Youth/Culture/Fan Engagement Focus) for any particular company to be considered a sponsorship lead."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nIndustry: Retail / E-commerce (not a target industry)"
+  },
+  {
+    "result": "Lead: Yes\nSignal(s): Marketing \u0026 Brand Investment, Youth, Culture, or Fan Engagement Focus\nExplanation: The article highlights that luxury fashion brands are making significant, strategic investments in influencer marketing (estimated $1.2 billion in 2023) to engage with younger audiences and build deeper community connections, aligning with their focus on youth and fan engagement.\nCompany Name(s): Gucci, Louis Vuitton, Prada, Loewe, Moncler, Chanel, Bottega Veneta, Burberry, Fendi, Tommy Hilfiger\nRegion of Activity: Global (implied by the nature of luxury brands and international travel for events)\nIndustry: Luxury Goods"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article is a thought leadership piece discussing general trends in consumer behavior and marketing strategies in India. It does not focus on a specific company's activities, funding, market expansion, new leadership appointments, or partnership announcements that would indicate a direct sponsorship buying signal. While it mentions Gen Z and digital engagement, it's in the context of general industry advice, not a specific company's plan for youth or fan engagement."
+  },
+  {
+    "result": "Lead: No\nExplanation: This article is a commentary on the future trends in advertising, specifically focusing on \"quiet advertising\" and \"sensory branding.\" It discusses general industry shifts and uses various brands as examples to illustrate these trends, but it does not report on any specific company's new initiatives (e.g., funding, leadership changes, market expansion, or new marketing investments) that would constitute a buying signal for a sponsorship opportunity."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nSignals Detected: Marketing \u0026 Brand Investment, Market Expansion\nExplanation: Vimto is actively pitching for a new creative agency to launch a major advertising campaign later this year, signaling significant upcoming marketing investment and a strategic focus on expanding its brand reach.\nCompany Name: Vimto\nRegion of Activity: UK\nIndustry: Beverages"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Beverages\nCompany Name: Heineken (Desperados brand)\nRegion of Activity: Global (implied by \"global campaign\")\n\n**Signals Detected:**\n*   **Marketing \u0026 Brand Investment**: The article details Desperados' shift in marketing strategy, launching a new global campaign (\"Desperados Collectives\"), and increasing investment in digital platforms and influencer collaborations to drive brand relevance.\n*   **Partnerships \u0026 Sponsorships**: The brand is actively engaging in partnerships with influencers and artists for co-creation and content generation, indicating a willingness to collaborate externally.\n*   **Youth, Culture, or Fan Engagement Focus**: The core of the strategy is to drive \"cultural relevancy,\" build connections with its target audience (implied youth/culture focus), and engage consumers through novel, participatory approaches like experiential activations and influencer-led content.\n\n**Explanation:** Desperados (Heineken) is undertaking a significant strategic shift in its marketing, focusing on new digital campaigns and partnerships with influencers to reach a culturally relevant, youth-focused audience. This indicates an active marketing budget and a strong interest in innovative engagement strategies, making them a good fit for sponsorship discussions."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\n\n**Signal(s) Detected:**\n*   Marketing \u0026 Brand Investment\n*   Partnerships \u0026 Sponsorships\n*   Youth, Culture, or Fan Engagement Focus\n\n**Explanation:** The article focuses on \"the best ads\" associated with the Women's Euro 2025 tournament. This directly indicates that the featured companies are actively investing in significant marketing and brand campaigns, demonstrating a willingness to associate with and leverage major sports events. Such advertising efforts often target specific demographics, including youth and sports fans, indicating a focus on fan engagement. Companies engaged in such high-profile event-based advertising are strong candidates for future sponsorship opportunities.\n\n**Likely Industries Featured:**\n*   Automobiles\n*   Beverages\n*   Betting and Gambling\n*   Banks\n*   Telecommunication"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses the general trend of decreasing startup funding in Paris during the first half of 2025. It does not focus on a specific company, nor does it present any of the specified buying signals such as market expansion, marketing investment, new leadership, specific funding rounds for a company, partnerships, or youth engagement. Furthermore, the article's subject matter (startup funding trends) does not align with the preferred industries for sponsorship."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Cryptocurrency\nCompany Name: Freename\nRegion of Activity: Global (Web3 operations)\n\n**Signals Detected:**\n*   **Funding or M\u0026A Activity:** Freename closed a $6.5 million Series A funding round.\n*   **Market Expansion:** The company announced plans to expand into other blockchain networks (zkSync, Arbitrum, Optimism, Avalanche).\n*   **Partnerships \u0026 Sponsorships:** Freename recently partnered with D3 Global and Polygon Labs.\n\n**Explanation:** Freename's successful Series A funding round indicates a significant capital injection for growth. The company's active expansion into new blockchain networks and established partnerships with other notable Web3 entities demonstrate a strong growth trajectory and an openness to strategic collaborations, making them a potential target for sponsorship."
+  },
+  {
+    "result": "Lead: No\nExplanation: While funding activity was detected, the company's industry (Robotics/Food Tech) is not within the specified valid industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:** While the article mentions buying signals such as \"Funding or M\u0026A Activity\" (securing seed funding) and \"Marketing \u0026 Brand Investment\" (investment in marketing), the company, Cosmoss, operates as a D2C fashion brand, which is not among the preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: Yes\nSignals Detected: Funding or M\u0026A Activity\nExplanation: The article details significant funding rounds and acquisitions for several companies in relevant industries, such as Ola Electric Mobility (Electric Vehicles) raising $240M, CoinDCX (Cryptocurrency) raising $90M, and Zetwerk (Manufacturing) raising $150M. This indicates available capital for growth and potential marketing investments, including sports or esports sponsorships.\nCompany Examples: Ola Electric Mobility, CoinDCX, Unacademy, BharatPe, Zetwerk, BluSmart Mobility, Moglix, OfBusiness, GMR Airports.\nRegion of Activity: India\nIndustries: Electric Vehicles, Cryptocurrency, Education and Online Learning, Banks (Fintech), Manufacturing, Travel and Tourism (Airports)."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses a general trend in startup funding in Paris for H1 2025 (a decline in investment). It does not mention any specific company or its activities related to market expansion, marketing investment, new leadership, funding rounds for a specific company, partnerships, or youth engagement. Therefore, no relevant buying signals for a sponsorship opportunity were detected."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\nExplanation: The article primarily reports on a personal real estate transaction involving the founder of \"data for India,\" not on any business activities of \"data for India\" or other mentioned companies that would indicate a need or budget for sponsorship. No buying signals related to market expansion, marketing investment, leadership changes, funding, partnerships, or fan engagement were detected for any company."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: While the article mentions several companies undertaking activities that qualify as buying signals (e.g., funding rounds, market expansion, increased marketing efforts), none of these companies belong to the industries specified as relevant for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: This article is a scientific paper detailing a systematic review and meta-analysis of social media use for health information in low- and middle-income countries. It does not contain any information about specific companies, their business activities, marketing investments, or leadership changes, and therefore does not provide any buying signals for sponsorship opportunities. The industries discussed (social media platforms) are not the focus of a commercial entity's marketing efforts in this context."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article reports that Ohm Daily, an EV financing and micro-lending company, has shut down its operations. A company ceasing operations does not present any buying signals for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nIndustry: AI Tax Platform (Fintech)\n\nExplanation: While the article mentions a significant Series B funding round for April, indicating strong \"Funding or M\u0026A Activity,\" the company's industry (AI Tax Platform/Fintech) is not within the specified list of preferred industries for sponsorship consideration."
+  },
+  {
+    "result": "Lead: No\nExplanation: While the article discusses multiple companies closing funding rounds, the primary industry for all mentioned companies (plant-based foods, cultivated meats, food tech) is Food/FMCG, which is not among the industries specified for desired leads."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: Yes\nSignal(s) detected: Funding or M\u0026A Activity, Market Expansion\nExplanation: The article reports on several fintech companies that have recently closed funding rounds, indicating increased budget and growth initiatives. Additionally, some of these companies are expanding their operations into new regions.\nCompany Name Examples \u0026 Industries:\n*   **Finclusion Group:** (Banks) - Secured $20 million in debt and equity funding; operates across South Africa, eSwatini, Kenya, Lesotho, Namibia, Tanzania, Uganda, Zambia.\n*   **Dbank:** (Banks) - Announced pre-seed funding for its digital bank focusing on the creator economy.\n*   **Currency Stream:** (Forex trading - Online Trading) - Announced $1.25 million in seed funding for its global payment and currency exchange platform.\n*   **Mondu:** (Banks / Online Trading) - Raised $43 million in debt funding and $20 million in Series A extension equity; operates in Germany, Spain, Netherlands, and the UK."
+  },
+  {
+    "result": "Lead: Yes\nIndustry: Insurance Companies\n\n**Detected Signals:**\n*   Funding or M\u0026A Activity\n*   Market Expansion\n*   Marketing \u0026 Brand Investment\n\n**Explanation:**\nBharatsure, an Insurtech company, has successfully closed a pre-Series A funding round of ₹6 crore. The capital will be used to enhance product offerings, expand distribution channels, and scale sales and marketing teams to reach a broader audience, indicating a strong focus on growth and brand visibility."
+  },
+  {
+    "result": "Lead: No\n\nExplanation: The article discusses a general trend of decreased startup funding in Paris for H1 2025. It does not mention specific companies closing funding rounds, launching marketing campaigns, appointing new leadership, or engaging in other activities that would indicate a potential sponsorship opportunity."
+  },
+  {
+    "result": "Lead: No\n\n**Explanation:**\nWhile the article indicates strong buying signals such as significant funding ($40 million Series C) and plans for market expansion, the company's industry (B2B platform for construction equipment rental/procurement) does not align with the specified target industries."
+  },
+  {
+    "result": "Lead: No"
+  },
+  {
+    "result": "Lead: No\n\nExplanation: Although the article contains multiple buying signals related to Market Expansion (e.g., Bayer opening a new innovation center, CureVac working on a new plant in Asia, BioNTech expanding in Australia, Orifarm opening a German sales office, Novo Nordisk investing in new European production capacity) and Funding or M\u0026A Activity (Evonik selling a business), the companies mentioned (e.g., Sartorius, Bayer, Merck KGaA, Evonik, CureVac, Novo Nordisk, BioNTech, Philips) operate within the Healthcare/Life Science/Biotech/Pharma industries, which are not among the preferred industries for sponsorship opportunities."
+  },
+  {
+    "result": "Lead: No\nExplanation: The article discusses Anthropic's new AI capabilities and product development, not marketing, brand investment, leadership changes, funding, or sponsorship activities. Furthermore, Anthropic (Artificial Intelligence/Software Development) is not one of the target industries for sponsorship."
   }
 ]
