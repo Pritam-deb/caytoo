@@ -18,7 +18,7 @@ var primed bool = false
 
 var ctx = context.Background()
 var rdb = redis.NewClient(&redis.Options{
-	Addr:     "redis:6379",
+	Addr:     "localhost:6379",
 	Password: "",
 	DB:       0,
 })
@@ -130,7 +130,7 @@ Industry: FMCG`)
 
 	countResp, err := client.Models.CountTokens(
 		ctx,
-		"gemini-2.5-pro",
+		"gemini-2.5-flash-preview-05-20",
 		genai.Text(prompt),
 		nil, // No system instruction for token count
 	)
@@ -141,7 +141,7 @@ Industry: FMCG`)
 	}
 	result, err := client.Models.GenerateContent(
 		ctx,
-		"gemini-2.5-pro",
+		"gemini-2.5-flash-preview-05-20",
 		genai.Text(prompt),
 		config,
 	)
