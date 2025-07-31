@@ -1,60 +1,245 @@
 {
   "Google Alert - Chief Marketing Officer Hiring": {
-    "2025-07-26": [
-      "https://www.msn.com/en-us/money/smallbusiness/ness-digital-engineering-taps-executive-anshul-kaushesh-as-its-new-chief-marketing-officer/ar-AA1JjstG?ocid=finance-verthp-feeds",
-      "https://www.pitchonnet.com/marketing-moments/lol-is-the-new-roi-how-brands-are-hiring-fictional-employees-to-break-the-internet-37627.html",
-      "https://www.adweek.com/agencies/as-ad-industry-sheds-jobs-these-agencies-are-growing-and-hiring/",
-      "https://www.fiercebiotech.com/biotech/bms-names-astrazenecas-cristian-massacesi-new-chief-medical-officer"
+    "2025-07-30": [
+      "https://startuppedia.in/trending/trending/delhi-woman-claims-she-was-denied-cmo-role-for-being-a-mother-sparks-online-debate-on-gender-bias-at-workplaces-9605494",
+      "https://storypick.com/indian-woman-denied-cmo-job-because-she-has-young-kids/",
+      "https://www.afr.com/companies/financial-services/anz-s-mckinsey-review-targets-top-brass-amid-broader-hiring-freeze-20250729-p5miqi",
+      "https://www.msn.com/en-us/money/smallbusiness/ness-digital-engineering-taps-executive-anshul-kaushesh-as-its-new-chief-marketing-officer/ar-AA1JjstG",
+      "https://www.storyboard18.com/brand-makers/media-entertainment-pay-to-rise-7-7-as-digital-surge-reshapes-hiring-teamlease-report-77520.htm",
+      "https://www.msn.com/en-in/entertainment/bollywood/woman-rejected-for-job-after-being-asked-about-her-kids-their-schools-and-husband-s-job/ar-AA1JxTFP",
+      "https://www.thedailyjagran.com/viral/woman-loses-job-after-being-asked-about-kids-school-and-husbands-work-viral-10256432"
     ]
   },
   "Google Alert - Brand campaigns": {
-    "2025-07-26": [
-      "https://www.adgully.com/post/4401/weekly-ads",
-      "https://www.adgully.com/post/4401/weekly-ads",
-      "https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/",
-      "https://adage.com/technology/ai/aa-walmart-ai/",
-      "https://www.voguebusiness.com/story/fashion/the-new-rules-of-influencer-trips",
-      "https://www.campaignindia.in/article/consumers-rewrite-the-rules-marketers-cant-copy-paste-anymore/503843",
-      "https://www.campaignlive.com/article/why-future-advertising-may-quieter-think/1926926",
-      "https://www.campaignlive.co.uk/article/vimto-shortlist-imminent-pitch-launched-linkedin/1926853",
-      "https://www.marketingweek.com/heineken-social-media-influencers-desperados/",
-      "https://newsworks.org.uk/news-and-opinion/mail-metro-media-impact-fund-powers-octopus-energy-renewable-technology-campaign/",
-      "https://www.thedrum.com/news/2025/07/25/women-s-euro-2025-the-best-ads-the-tournament"
-    ]
-  },
-  "Google Alert - Funding Series C": {
-    "2025-07-26": [
-      "https://bebeez.eu/2025/07/26/startup-funding-in-paris-drops-a-third-in-h1-2025/",
-      "https://indianstartupnews.com/funding/growth-sense-venture-fund-announces-first-closure-to-invest-in-early-stage-startups-9539730",
-      "https://arynews.tv/gwyneth-paltrow-vs-chris-martin-net-worth-2025-whos-wealthier-post-divorce/"
-    ]
-  },
-  "Google Alert - Funding Series A": {
-    "2025-07-26": [
-      "https://pulse2.com/freename-6-5-million-series-a-raised-for-advancing-domain-name-technology/",
-      "https://www.linkedin.com/posts/businessinsider_chef-robotics-raised-a-206-million-series-activity-7354880688950583296-p6uV",
-      "https://www.indianretailer.com/article/retail-business/funding/funding-alert-cosmoss-secures-seed-funding-moms-co-and-tetr",
-      "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-21-july-26-9538332",
-      "https://bebeez.eu/2025/07/26/startup-funding-in-paris-drops-a-third-in-h1-2025/",
-      "https://www.linkedin.com/posts/analytics-india-magazine_karnataka-attracted-17-billion-in-tech-activity-7354793857701593088-FmyW",
-      "https://m.economictimes.com/industry/services/property-/-cstruction/data-for-india-founder-buys-plot-in-vasant-vihar-for-rs-113-crore/articleshow/122920465.cms",
-      "https://theaiinsider.tech/2025/07/26/ai-insiders-week-in-review-proscia-scales-slingshot-launches-therapy-ai-robots-for-rent-investment-in-china-plus-americas-ai-action-plan-and-the-latest-funding-rounds/",
-      "https://www.nature.com/articles/s41599-025-05522-3",
-      "https://startupstorymedia.com/insights-ohm-daily-shuts-down-after-five-year-run-in-ev-financing-and-micro-lending-space/"
+    "2025-07-30": [
+      "https://adage.com/creativity/campaigns-commercials/aa-creative-ads-today-ag1-doritos-spam-miracle-gro-pizza-hut/",
+      "https://adage.com/creativity/campaigns-commercials/aa-creative-ads-today-ag1-doritos-spam-miracle-gro-pizza-hut/",
+      "https://www.campaignlive.com/article/brand-brief-sprite-pizza-hut-campaigns-everyone-talking/1927410",
+      "https://www.campaignlive.com/article/brand-brief-sprite-pizza-hut-campaigns-everyone-talking/1927410",
+      "https://www.famouscampaigns.com/2025/07/bank-finds-creative-loophole-to-feature-worlds-biggest-brands-in-ads/",
+      "https://www.buzzfeed.com/carleysuthers/ad-campaigns-sparked-outrage",
+      "https://www.coca-colacompany.com/media-center/sprite-turns-up-refreshment-with-experience-driven-summer-campaign.html",
+      "https://www.coca-colacompany.com/media-center/sprite-turns-up-refreshment-with-experience-driven-summer-campaign.html",
+      "https://www.socialsamosa.com/news-2/reddit-automated-bidding-brand-awareness-campaigns-9605731",
+      "https://www.adweek.com/brand-marketing/sydney-sweeney-american-eagle-ill-fitting-insights/",
+      "https://campaignme.com/the-realness-guide-how-to-keep-campaigns-authentic-with-ai/",
+      "https://creative.salon/articles/features/qotw-minimalism",
+      "https://www.marketingweek.com/industry-campaign-junk-food-ad-rules/"
     ]
   },
   "Google Alert - Funding Series B": {
-    "2025-07-26": [
-      "https://pulse2.com/april-38-million-series-b-secured-for-ai-tax-platform/",
-      "https://www.jdsupra.com/legalnews/food-venture-financing-news-weekly-3516928/",
-      "https://www.crn.com/news/channel-news/2025/five-companies-that-came-to-win-this-week-july-25-2025",
-      "https://www.fintechfutures.com/venture-capital-funding/icymi-fintech-funding-round-up-currency-stream-credibur-retirable-and-more",
-      "https://startupstorymedia.com/insights-insurtech-startup-bharatsure-raises-%E2%82%B96-cr-in-funding-round-led-by-inflection-point-ventures/",
-      "https://bebeez.eu/2025/07/26/startup-funding-in-paris-drops-a-third-in-h1-2025/",
-      "https://coverager.com/trunk-tools-raises-40-million/",
-      "https://www.ainvest.com/news/nvidia-snowflake-fuel-reka-ai-billion-dollar-valuation-110m-funding-2507/",
-      "https://www.gtai.de/en/invest/industries/healthcare-market-germany/life-science-healthcare-news-july-2025-1917086",
-      "https://cryptobriefing.com/anthropic-claude-subagents-integration/"
+    "2025-07-30": [
+      "https://www.thesaasnews.com/news/sparrow-raises-35-million-in-series-b",
+      "https://www.finsmes.com/2025/07/oxide-computer-company-raises-100m-in-series-b-funding.html",
+      "https://news.crunchbase.com/e-commerce/iconiq-investment-doubles-quince-valuation/",
+      "https://finance.yahoo.com/news/oxide-raises-100m-series-b-130000433.html",
+      "https://medicalbuyer.co.in/arbital-health-raises-usd-31m-in-series-b-round/",
+      "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-lifesciences-goodwin-advises-artbio-in-132-million-series",
+      "https://chargedevs.com/newswire/ionic-closes-29-million-series-b-round-to-produce-battery-materials-in-utah/",
+      "https://www.thesaasnews.com/news/arbital-health-raises-31-million-in-series-b",
+      "https://www.wsj.com/articles/ai-finance-app-ramp-is-valued-at-22-5-billion-in-funding-round-5a4269cb",
+      "https://news.ycombinator.com/item?id=44733817"
+    ]
+  },
+  "Google Alert - Expansion in UK": {
+    "2025-07-30": [
+      "https://www.bbc.co.uk/news/articles/cd6nvzjvwgqo",
+      "https://www.reuters.com/world/uk/britain-consider-rival-plans-heathrow-airport-expansion-2025-07-30/",
+      "https://www.hilldickinson.com/insights/articles/uk-government-releases-its-interim-response-expansion-uk-ets-maritime-sector",
+      "https://www.awazthevoice.in/world-news/under-vision-india-uk-will-have-even-bigger-broader-deeper-relationship-39700.html",
+      "https://www.bbc.co.uk/news/articles/c207nzgrz3vo",
+      "https://www.independent.co.uk/news/uk/home-news/heathrow-airport-expansion-shorter-third-runway-arora-b2799120.html",
+      "https://www.independent.co.uk/news/uk/home-news/heathrow-airport-expansion-shorter-third-runway-arora-b2799120.html",
+      "https://www.reuters.com/world/uk/uk-airports-disrupted-by-radar-fault-air-traffic-control-system-2025-07-30/",
+      "https://www.thetimes.com/uk/transport/article/heathrow-airport-shorter-third-runway-dgt0fnss0",
+      "https://www.localgovernmentlawyer.co.uk/sharpeedge/812-sharpeedge-regulatory/61760-government-issues-response-to-the-uk-ets-expansion-to-waste",
+      "https://uk.finance.yahoo.com/news/britain-consider-rival-plans-heathrow-230456915.html"
+    ]
+  },
+  "Google Alert - Funding Series A": {
+    "2025-07-30": [
+      "https://www.thesaasnews.com/news/sharpsell-ai-raises-30-crore-in-series-a",
+      "https://www.prnewswire.com/news-releases/air-secures-23m-in-series-a-funding-to-accelerate-us-expansion-and-deliver-multi-domain-evtols-at-scale-302517522.html",
+      "https://www.moneycontrol.com/news/business/startup/ai-edtech-startup-arivihan-raises-4-17-million-pre-series-a-led-by-prosus-and-accel-13353303.html",
+      "https://entrackr.com/snippets/designx-raises-2-mn-in-pre-series-a-round-led-by-rockstud-capital-9606526",
+      "https://www.calcalistech.com/ctechnews/article/bkqidkwdeg",
+      "https://www.finsmes.com/2025/07/legion-raises-38m-in-seed-and-series-a-funding.html",
+      "https://www.hindustantimes.com/technology/ai-finance-app-ramp-is-valued-at-22-5-billion-in-funding-round-101753885697975.html",
+      "https://www.theblock.co/press-releases/364796/ston-fi-dev-raises-9-5m-series-a-to-scale-defi-on-ton",
+      "https://www.businesswire.com/news/home/20250729681026/en/Prophet-Security-Raises-%2430M-Series-A-Announces-Industrys-Most-Comprehensive-Agentic-AI-SOC-Platform-to-Transform-Security-Operations",
+      "https://aviationweek.com/aerospace/advanced-air-mobility/air-raises-23m-series-round-us-expansion"
+    ]
+  },
+  "Google Alert - Head of Marketing Appointment in Europe": {
+    "2025-07-30": [
+      "https://www.hospitalitynet.org/appointment/79030551.html",
+      "https://www.european-coatings.com/news/markets-companies/epsilon-carbon-appoints-munish-bakshi-as-vice-president-sales-and-marketing/",
+      "https://www.travelandtourworld.com/news/article/nathalie-feyte-appointed-chief-marketing-sales-revenue-officer-at-bb-hotels-to-drive-growth-in-western-europe/",
+      "https://www.marketing-beat.co.uk/2025/07/30/dentsu-secures-bmw-group/",
+      "https://www.autoblog.com/news/why-stellantis-new-european-design-chief-matters-for-future-cars"
+    ]
+  },
+  "Google Alert - latest \"cryptocurrency exchange\"": {
+    "2025-07-30": [
+      "https://www.reuters.com/business/finance/jpmorgan-enable-crypto-purchases-via-credit-cards-coinbase-tie-up-2025-07-30/",
+      "https://www.theblock.co/post/364806/kraken-raise-crypto-capital-market",
+      "https://www.bloomberg.com/news/articles/2025-07-30/crypto-exchange-kraken-sees-revenue-rise-18-in-second-quarter",
+      "https://www.techinasia.com/news/crypto-exchange-kraken-seeks-500m-at-15b-valuation-reports",
+      "https://www.investing.com/news/cryptocurrency-news/btcc-exchange-reports-35-trading-volume-growth-following-listing-of-over-80-new-spot-trading-pairs-in-july-2025-4160434",
+      "https://www.deccanherald.com/india/karnataka/bengaluru/employee-arrested-in-bengaluru-after-crypto-exchange-loses-44-million-in-major-hack-3656871",
+      "https://www.prnewswire.com/in/news-releases/bybit-smart-money-report-smart-money-flows-into-eth-sol-and-rwa-concept-altcoins-as-stablecoin-balances-decline-302517212.html",
+      "https://blockchaintechnology-news.com/news/coinbase-exchange-targets-alleged-cybersquatter-in-lawsuit/",
+      "https://www.financemagnates.com/cryptocurrency/exchange/kraken-eyes-500m-funding-round-at-15b-valuation-as-ipo-plans-take-shape/",
+      "https://www.ainvest.com/news/coinbase-expands-listings-tokens-jpmorgan-partnership-2507/"
+    ]
+  },
+  "Google Alert - latest betting brands": {
+    "2025-07-30": [
+      "https://brandfinance.com/press-releases/us-online-betting-brands-topple-vegas-as-worlds-leading-gambling-brand",
+      "https://gamingamerica.com/news/13788/brazil-authorises-caixa-loterias-to-run-fixed-odds-betting-under-three-brands",
+      "https://gamingamerica.com/news/13788/brazil-authorises-caixa-loterias-to-run-fixed-odds-betting-under-three-brands",
+      "https://focusgn.com/brazil-grants-caixa-loterias-licence-for-state-owned-betting-operation",
+      "https://igamingexpert.com/news/affiliates/parimatch-leeds-united-new-sponsorship-era/",
+      "https://europeangaming.eu/portal/latest-news/2025/07/30/187938/fairplay-sports-media-forges-strategic-partnership-with-the-sporting-news/",
+      "https://vocal.media/01/the-future-of-sports-betting-how-white-label-solutions-are-disrupting-market",
+      "https://thestraight.com.au/jason-scott-backs-a-new-pony/",
+      "https://www.financialexpress.com/market/stock-insights/forget-growth-stocks-dolly-khanna-is-betting-on-these-2-high-dividend-small-caps/3931521/",
+      "https://www.reuters.com/sustainability/sustainable-finance-reporting/third-point-bets-rocket-companies-informa-caseys-general-stores-q2-letter-says-2025-07-30/",
+      "https://www.gamblinginsider.com/news/30537/brazil-caixa-loterias-granted-five-year-licence-to-operate-state-owned-betting-platform"
+    ]
+  },
+  "Google Alert - upcoming cryptocurrency brands": {
+    "2025-07-30": [
+      "https://news.abplive.com/brand-wire/5-best-cryptocurrencies-under-50-cents-in-2025-1791680",
+      "https://finance.yahoo.com/news/companies-buying-crypto-no-not-161355441.html",
+      "https://uk.finance.yahoo.com/news/companies-buying-crypto-no-not-161355441.html",
+      "https://www.fool.com/investing/2025/07/30/1-strategic-shift-that-could-redefine-cryptos-futu/",
+      "https://www.tribuneindia.com/partner-exclusives/ethereum-and-ozak-ai-what-recent-forecasts-suggest-about-future-prices/",
+      "https://www.bloomberg.com/news/articles/2025-07-30/crypto-firms-adopt-wall-street-s-financial-tactics-in-new-era",
+      "https://fortune.com/crypto/2025/07/30/bitcoin-treasuries/",
+      "https://www.tradingview.com/news/cointelegraph:584984dc5094b:0-ethereum-2035-how-the-next-10-years-might-look/",
+      "https://www.mitrade.com/insights/news/live-news/article-3-998538-20250730",
+      "https://cointelegraph.com/news/ethereum-turns-10-booms-busts-history"
+    ]
+  },
+  "Google Alert - \"Forex Trading\" + Partnership": {
+    "2025-07-30": [
+      "https://businesscloud.co.uk/news/how-to-choose-a-reliable-forex-broker/",
+      "https://www.financemagnates.com/forex/london-based-trading-technology-provider-mahimarkets-joins-match-trader-for-unified-pricing/",
+      "https://www.researchgate.net/publication/394104843_Exness_Partner_Code_185pn6pi4g_-_Complete_Bonus_Activation_Guide",
+      "https://www.dailyforex.com/forex-technical-analysis/2025/07/gold-analysis-30-july-2025/231976",
+      "https://www.fxleaders.com/news/2025/07/30/rakbank-launches-uaes-first-regulated-crypto-trading-for-retail-users/",
+      "https://www.mitrade.com/insights/news/live-news/article-3-999115-20250731",
+      "https://fxdailyreport.com/coinbase-and-jpmorgan-chase-partner-to-expand-crypto-access/",
+      "https://www.arabictrader.com/en/news/economy/190499/august-1-trump-finalizes-the-date-for-implementing-customs-duties",
+      "https://fxdailyreport.com/bitkub-ledger-unite-to-advance-crypto-education-for-thailand/"
+    ]
+  },
+  "Google Alert - Signing Brand Ambassadors": {
+    "2025-07-30": [
+      "https://www.daily-sun.com/post/680443/budget2025-2026",
+      "https://www.passionateinmarketing.com/signature-packaged-drinking-water-launches-a-new-tvc-film-the-mangroves-regeneration-pledge-featuring-ayushmann-khurrana/",
+      "https://www.passionateinmarketing.com/signature-packaged-drinking-water-launches-a-new-tvc-film-the-mangroves-regeneration-pledge-featuring-ayushmann-khurrana/"
+    ]
+  },
+  "Google Alert - Chief Marketing Officer Appointment": {
+    "2025-07-30": [
+      "https://www.hospitalitynet.org/appointment/79030551.html",
+      "https://in.investing.com/news/company-news/schoox-appoints-sandra-moran-as-chief-marketing-officer-93CH-4934304",
+      "https://www.martechcube.com/appfire-appoints-catherine-solazzo-as-cmo-to-drive-next-phase-of-growth/",
+      "https://www.prnewswire.com/news-releases/sandra-moran-joins-schoox-as-chief-marketing-officer-to-accelerate-growth-and-lead-market-disruption-in-learning-and-development-302516467.html",
+      "https://www.travelandtourworld.com/news/article/nathalie-feyte-appointed-chief-marketing-sales-revenue-officer-at-bb-hotels-to-drive-growth-in-western-europe/",
+      "https://www.diageo.com/en/news-and-media/press-releases/2025/diageo-announces-interim-chief-financial-officer-appointment",
+      "https://www.rprealtyplus.com/news-views/puravankara-group-elevates-dhruba-ghosh-as-president-marketing-121089.html",
+      "https://www.medianews4u.com/ananya-agrawal-joins-river-as-head-of-marketing/",
+      "https://talonooh.com/talon-names-shanil-chande-first-chief-programmatic-officer/",
+      "https://www.hotelierindia.com/appointments/ventive-hospitality-strengthens-leadership-team-with-appointment-of-mayur-tiwari-as-avp-food-beverage-culinary"
+    ]
+  },
+  "Google Alert - Forex Trading Companies in Asia": {
+    "2025-07-30": [
+      "https://in.investing.com/news/forex-news/asia-fx-muted-dollar-weakens-slightly-ahead-of-fed-rate-decision-4933435",
+      "https://www.macaubusiness.com/fbs-wins-first-csr-award-for-making-a-real-difference-across-asia/",
+      "https://www.leaprate.com/forex/institutional/bank-of-china-hong-kong-limited-joins-common-eurobonds-depository-network/",
+      "https://www.brecorder.com/news/40375219"
+    ]
+  },
+  "Google Alert - marketing budget increase": {
+    "2025-07-30": [
+      "https://www.emarketer.com/content/cpg-marketers-boost-retail-social-ad-spend-data-gaps-hinder-ctv-growth",
+      "https://www.marketingweek.com/channel-4-cmo-creator-marketing/",
+      "https://www.mckinsey.com/industries/private-capital/our-insights/unlocking-switzerlands-potential-the-rise-of-online-marketplaces",
+      "https://www.advanced-television.com/2025/07/29/report-uk-adspend-grew-8-in-q1-2025/",
+      "https://www.emarketer.com/content/influencer-marketing-continues-its-upward-trend-after-unilever-s-creator-push",
+      "https://the-cfo.io/2025/07/29/why-cfos-are-taking-fractions-seriously-in-marketing/",
+      "https://m.economictimes.com/news/economy/policy/no-plan-to-increase-rs-14-8l-cr-borrowing-target-says-official/articleshow/122982330.cms",
+      "https://www.newindianexpress.com/business/2025/Jul/28/india-inc-q1-revenue-inches-up-a-pale-4-6-says-crisil-report",
+      "https://www.illinois.gov/news/release.html?releaseid=6531",
+      "https://www.tipranks.com/news/ratings/doximitys-mixed-market-signals-positive-growth-amidst-budget-concerns-and-rising-competition-ratings"
+    ]
+  },
+  "Google Alert - \"esports\" + \"cryptocurrency\"": {
+    "2025-07-30": [
+      "https://timestabloid.com/esports-showdown-betting-odds-explained-on-gamdom-roobet/",
+      "https://www.completesports.com/pi-network-how-the-mobile-mining-revolution-could-change-the-game-for-sports-fans-and-investors/"
+    ]
+  },
+  "Google Alert - Entering Europe Market": {
+    "2025-07-30": [
+      "https://www.reuters.com/world/europe/global-markets-view-europe-2025-07-30/",
+      "https://www.weforum.org/stories/2025/07/the-eu-us-trade-deal-explained-eu-competitiveness/",
+      "https://www.businesstoday.in/nri/visa/story/planning-europe-travel-in-2026-no-more-schengen-visa-stamps-stickers-on-your-passports-heres-why-486995-2025-07-30",
+      "https://www.business-standard.com/amp/immigration/heading-to-europe-2-000-travel-permit-required-for-each-adult-soon-125073000590_1.html",
+      "https://global.chinadaily.com.cn/a/202507/31/WS688ac5eaa310c26fd717caf4.html",
+      "https://www.etfstream.com/articles/o-leary-joins-mccann-fitzgerald-to-head-up-etf-practice",
+      "https://discoveryalert.com.au/news/eu-sanctions-russia-indian-refiners-impact-2025/",
+      "https://www.mk.co.kr/en/stock/11381236",
+      "https://www.worldcoffeeportal.com/news/brazils-the-coffee-builds-benelux-presence-with-luxembourg-launch/"
+    ]
+  },
+  "Google Alert - \"Forex Trading\" + marketing campaigns": {
+    "2025-07-30": [
+      "https://menafn.com/1109861967/India-Foreign-Exchange-Market-Size-Share-Trends-Growth-Statistics-And-Forecast-2025-2033"
+    ]
+  },
+  "Google Alert - Esports Brand Partnerships": {
+    "2025-07-30": [
+      "https://esportsadvocate.net/2025/07/blast-partners-with-republic-of-gamers-for-2025-blast-premier/",
+      "https://www.igamingtoday.com/stake-strikes-international-esports-partnership-with-team-vitality/",
+      "https://www.yogonet.com/international/news/2025/07/29/112964-stake-signs-multiyear-esports-partnership-with-team-vitality",
+      "https://www.intergameonline.com/igaming/news/stake-secures-esports-partnership-with-team-vitality",
+      "https://www.egr.global/intel/news/stake-pens-multi-year-deal-with-esports-giants/",
+      "https://in.ign.com/esports/237487/news/esports-world-cup-2025-nodwin-gaming-partners-with-sony-liv-to-broadcast-matches-for-indian-audience",
+      "https://www.prnewswire.co.uk/news-releases/bcgame-esports-signs-cs2-superstar-s1mple-to-strengthen-global-ambitions-302515873.html",
+      "https://www.gamesbras.com/english-version/2025/7/28/7777-gaming-announces-landmark-partnership-with-betano-brasil-to-expand-in-latin-america-57010.html",
+      "https://www.yogonet.com/international/news/2025/07/29/112337--34tooniebet-39s-partnership-with-the-cfl-is-a-milestone-for-soft2bet-not-just-in-canada-but-in-our-global-roadmap-34",
+      "https://www.brandvm.com/post/richest-twitch-streamers-2025-net-worth"
+    ]
+  },
+  "Google Alert - Entering Middle East Market": {
+    "2025-07-30": [
+      "https://www.moneycontrol.com/news/business/markets/l-t-flexes-new-age-business-middle-eastern-muscle-in-q1-results-13345800.html",
+      "https://retail.economictimes.indiatimes.com/news/apparel-fashion/apparel/from-d2c-to-dubai-brand-studio-lifestyle-launches-in-uae-plans-38-more-stores-in-india/122986745",
+      "https://www.dw.com/en/middle-east-germany-announces-plan-to-airlift-aid-to-gaza/live-73433944",
+      "https://www.dw.com/en/middle-east-germany-announces-plan-to-airlift-aid-to-gaza/live-73433944",
+      "https://www.reuters.com/world/india/indian-e-cab-provider-blusmart-enters-insolvency-amid-corporate-governance-2025-07-29/",
+      "https://economymiddleeast.com/news/uae-safest-country-ranking-creates-safety-premium-real-estate-market/",
+      "https://dbrs.morningstar.com/research/459582",
+      "https://m.thepeninsulaqatar.com/article/29/07/2025/netherlands-bans-two-far-right-israeli-ministers-from-entering-its-territory"
+    ]
+  },
+  "Google Alert - Brand Partnership Announcement": {
+    "2025-07-30": [
+      "https://mediabrief.com/raj-shamani-asus-expertbook-partnership/",
+      "https://www.marketingweek.com/stanley-1913-herita-partnerships-social/",
+      "https://esportsinsider.com/2025/07/blast-premier-asus-rog-partnership",
+      "https://infashionbusiness.com/home/news_details/6007",
+      "https://electrek.co/2025/07/29/lucid-gets-lisan-al-gaib-timothee-chalamet-becomes-global-brand-ambassador/",
+      "https://markets.ft.com/data/announce/detail?dockey=600-202507280900BIZWIRE_USPRX____20250728_BW949714-1",
+      "https://www.investegate.co.uk/announcement/mfn/acast-ab-publ---0a9z/acast-enters-partnership-with-magnite-to-expa-/9007761",
+      "https://www.tipranks.com/news/lucid-motors-lcid-partners-with-timothee-chalamet",
+      "https://www.fashiondive.com/news/rebecca-minkoff-licensing-transition-sunrise-brands/754216/",
+      "https://www.audioholics.com/news/pioneer-splits"
     ]
   }
 }

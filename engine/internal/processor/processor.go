@@ -130,7 +130,7 @@ Industry: FMCG`)
 
 	countResp, err := client.Models.CountTokens(
 		ctx,
-		"gemini-2.5-flash-preview-05-20",
+		"gemini-2.5-pro",
 		genai.Text(prompt),
 		nil, // No system instruction for token count
 	)
@@ -141,7 +141,7 @@ Industry: FMCG`)
 	}
 	result, err := client.Models.GenerateContent(
 		ctx,
-		"gemini-2.5-flash-preview-05-20",
+		"gemini-2.5-pro",
 		genai.Text(prompt),
 		config,
 	)
