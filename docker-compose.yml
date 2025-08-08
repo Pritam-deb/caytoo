@@ -25,11 +25,11 @@ services:
     build:
       context: ./news-worker
     container_name: caytoo_NewsWorker
-    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
-    volumes:
-      - ./news-worker:/app
+    # volumes:
+    #   - ./news-worker:/app
     depends_on:
       - db
       - redis
@@ -53,8 +53,8 @@ services:
     ports:
       - "3001:3001"
       - "5555:5555" # For Prisma Studio
-    volumes:
-      - ./db-processor:/app
+    # volumes:
+    #   - ./db-processor:/app
     depends_on:
       - db
       - redis
