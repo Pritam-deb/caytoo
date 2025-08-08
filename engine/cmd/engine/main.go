@@ -17,7 +17,7 @@ import (
 
 // Configuration constants (consider moving to a config file or env variables for production)
 const (
-	redisAddr      = "redis:6379"         // Your Redis server address
+	redisAddr      = "localhost:6379"     // Your Redis server address
 	redisPassword  = ""                   // Your Redis password, if any
 	redisDB        = 0                    // Default Redis DB
 	queueName      = "google_alert_links" // The name of the Redis list to use as a queue

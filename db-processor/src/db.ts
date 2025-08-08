@@ -6,7 +6,7 @@ export const prisma = new PrismaClient();
 
 export const redis = createClient({
     socket: {
-        host: 'redis',
+        host: 'localhost',
         port: 6379,
     },
 });
