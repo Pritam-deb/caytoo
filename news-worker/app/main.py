@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 async def lifespan(app: FastAPI):
     # Code to run on startup
     print("Starting up.....")
-    redisDB = redis.Redis(host='localhost', port=6379, db=0)
+    redisDB = redis.Redis(host='redis', port=6379, db=0)
     today_str = datetime.utcnow().strftime("%Y-%m-%d")
     print(f"Redis connection established. Today's date: {today_str}")
     last_run = redisDB.get("last_gmail_alert_check")

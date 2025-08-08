@@ -20,6 +20,8 @@ services:
     restart: always
     ports:
       - "6379:6379"
+    volumes:
+      - redis_data:/data
 
   news-worker:
     build:
@@ -53,6 +55,8 @@ services:
     ports:
       - "3001:3001"
       - "5555:5555" # For Prisma Studio
+    environment:
+      DATABASE_URL: "postgresql://admin:caytoodatabase@db:5432/postgresdb"
     # volumes:
     #   - ./db-processor:/app
     depends_on:
@@ -75,3 +79,4 @@ services:
 
 volumes:
   db_data:
+  redis_data:

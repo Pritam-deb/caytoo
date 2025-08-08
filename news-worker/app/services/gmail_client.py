@@ -4,6 +4,7 @@ import re
 import json
 from email import message_from_bytes
 from email.utils import parsedate_to_datetime
+from time import time
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
@@ -50,10 +51,20 @@ def get_google_alert_links():
     messages = results.get('messages', [])
     print(f"Found {len(messages)} Google Alert emails.")
     data = defaultdict(lambda: defaultdict(list))
-    r = redis.Redis(host='localhost', port=6379, db=0)
-    r.set("article_processing", "true")
+    for i in range(10):
+        try:
+            r = redis.Redis(host='redis', port=6379, db=0)
+            r.set("article_processing", "true")
+            break
+        except redis.exceptions.ConnectionError:
+            print("Redis not ready yet, retrying...")
+            time.sleep(2)
+    else:
+        print("Failed to connect to Redis after multiple attempts.")
+        return {"error": "Failed to connect to Redis"}
+        
 
-    for msg in messages:  # Limit to recent 5
+    for msg in messages:  
         msg_data = service.users().messages().get(userId='me', id=msg['id'], format='raw').execute()
         raw_data = base64.urlsafe_b64decode(msg_data['raw'].encode('ASCII'))
         mime_msg = message_from_bytes(raw_data)
