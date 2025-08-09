@@ -13,6 +13,11 @@ services:
       - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d postgresdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   redis:
     image: redis:latest
@@ -22,6 +27,11 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   news-worker:
     build:
@@ -32,9 +42,12 @@ services:
       - "8000:8000"
     # volumes:
     #   - ./news-worker:/app
+    #   - /app/node_modules  # Uncomment for development to avoid overwriting node_modules
     depends_on:
-      - db
-      - redis
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
 
   engine:
     build:
@@ -44,14 +57,16 @@ services:
     volumes:
       - ./engine:/app
     depends_on:
-      - redis
-      - news-worker
+      redis:
+        condition: service_healthy
+      news-worker:
+        condition: service_started
 
   db-processor:
     build:
       context: ./db-processor
     container_name: caytoo_DBProcessor
-    command: npm run dev
+    command: sh -c "npx prisma migrate deploy && npm run dev"
     ports:
       - "3001:3001"
       - "5555:5555" # For Prisma Studio
@@ -59,10 +74,14 @@ services:
       DATABASE_URL: "postgresql://admin:caytoodatabase@db:5432/postgresdb"
     # volumes:
     #   - ./db-processor:/app
+    #   - /app/node_modules  # Uncomment for development to avoid overwriting node_modules
     depends_on:
-      - db
-      - redis
-      - engine
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      engine:
+        condition: service_started
 
   frontend:
     build:
@@ -72,10 +91,14 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/app
+      - /app/node_modules
     depends_on:
-      - db-processor
-      - news-worker
-      - engine
+      db-processor:
+        condition: service_started
+      news-worker:
+        condition: service_started
+      engine:
+        condition: service_started
 
 volumes:
   db_data:
