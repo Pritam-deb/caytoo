@@ -37,6 +37,7 @@ export default function Home() {
 
   // Scrollbar visibility logic
   useEffect(() => {
+    setHasStartedProcessing(true);
     let scrollTimeout: NodeJS.Timeout;
 
     const handleScroll = () => {
@@ -107,51 +108,53 @@ export default function Home() {
             GenLead
           </h1>
           <div className="flex items-center gap-4">
-            <button
-              className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-5 py-2 rounded-full shadow-lg hover:scale-110 hover:shadow-purple-500/50 transition-transform"
-              onClick={async () => {
-                setFilterLoading(true);
-                try {
-                  const res = await fetch("http://localhost:3001/consume");
-                  const data = await res.text();
-                  alert(data);
-                  location.reload();
-                } catch (err) {
-                  console.error("Error calling consume endpoint:", err);
-                  alert("Something went wrong while filtering articles.");
-                } finally {
-                  setFilterLoading(false);
-                }
-              }}
-              disabled={filterLoading}
-            >
-              {filterLoading ? (
-                <svg
-                  className="animate-spin h-5 w-5 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
-                  <circle
-                    className="opacity-25"
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    strokeWidth="4"
-                  ></circle>
-                  <path
-                    className="opacity-75"
-                    fill="currentColor"
-                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-                  ></path>
-                </svg>
-              ) : (
-                <>
-                  <Sparkles size={18} /> Show Filtered Articles
-                </>
-              )}
-            </button>
+            {showFilterButton && (
+              <button
+                className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-5 py-2 rounded-full shadow-lg hover:scale-110 hover:shadow-purple-500/50 transition-transform"
+                onClick={async () => {
+                  setFilterLoading(true);
+                  try {
+                    const res = await fetch("http://localhost:3001/consume");
+                    const data = await res.text();
+                    alert(data);
+                    location.reload();
+                  } catch (err) {
+                    console.error("Error calling consume endpoint:", err);
+                    alert("Something went wrong while filtering articles.");
+                  } finally {
+                    setFilterLoading(false);
+                  }
+                }}
+                disabled={filterLoading}
+              >
+                {filterLoading ? (
+                  <svg
+                    className="animate-spin h-5 w-5 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                    ></circle>
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                    ></path>
+                  </svg>
+                ) : (
+                  <>
+                    <Sparkles size={18} /> Show Filtered Articles
+                  </>
+                )}
+              </button>
+            )}
             <button
               onClick={() => setDarkMode(!darkMode)}
               className="p-3 rounded-full bg-gradient-to-r from-red-500 to-yellow-400 text-black font-bold shadow-lg hover:scale-125 transition-transform"
