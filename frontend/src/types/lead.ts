@@ -4,7 +4,7 @@ type Lead = {
     title: string;
     content: string;
     url_link: string;
-    image?: string;
+    image_url?: string;
     date: string;
     pitched: boolean;
 };

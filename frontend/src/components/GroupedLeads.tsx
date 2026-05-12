@@ -61,9 +61,9 @@ export function renderGroupedLeads(
                     : "bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100"
                 } rounded-xl p-4 shadow-md transition-colors`}
               >
-                {lead.image && (
+                {lead.image_url && (
                   <img
-                    src={lead.image}
+                    src={lead.image_url}
                     alt={lead.title}
                     className="w-full sm:w-48 h-32 object-cover rounded"
                   />

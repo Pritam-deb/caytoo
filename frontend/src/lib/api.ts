@@ -1,5 +1,4 @@
 import Lead from "@/types/lead";
-import { useState } from "react";
 
 
 export const handleToggleContacted = async (

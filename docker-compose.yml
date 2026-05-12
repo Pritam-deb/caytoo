@@ -89,9 +89,6 @@ services:
     container_name: caytoo_Frontend
     ports:
       - "3000:3000"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
     depends_on:
       db-processor:
         condition: service_started
